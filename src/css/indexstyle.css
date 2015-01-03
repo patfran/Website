@@ -9,10 +9,13 @@
 	box-shadow: 3px 0px 3px -2px rgba(0, 0, 0, .175);
 }
 
-.nav-pills > li > a {
+.custom-side-pills > li > a {
 	border-radius: 0px;
 }
 
+.custom-side-pills  li.dropdown:hover  ul.dropdown-menu{
+	display:block;
+}
 
 .project-dropdown{
 	left: 100%;
