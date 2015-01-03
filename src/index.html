@@ -24,56 +24,46 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-		<div class="container">
-		
-		<!-- Main component for a primary marketing message or call to action -->
-			<div id="wrapper">
-
-				<!-- Sidebar -->
-				<div id="sidebar-wrapper">
-					<ul class="sidebar-nav">
-						<li class="sidebar-brand">
-							<a href="#">
-								Patrick Francisco
-							</a>
-						</li>
-						<li>
-							<a href="#">Projects</a>
-							<ul>
-								<li> <a href="#">Projects</a> </li>
-								<li> <a href="#">Projects</a> </li>
-								<li> <a href="#">Projects</a> </li>
-								<li> <a href="#">Projects</a> </li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">LinkedIn</a>
-						</li>
-						<li>
-							<a href="#">GitHub</a>
-						</li>
-						<li>
-							<a href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /#sidebar-wrapper -->
-
-				<!-- Page Content -->
-				<div id="page-content-wrapper">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-12">
-								<h1>Simple Sidebar</h1>
-								<p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-								<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-							</div>
-						</div>
+		<div class="container">	
+			<div class="row">
+			
+				<div class="col-sm-4 col-md-4">
+					<div class="side-nav" data-spy="affix">
+						<ul class="nav nav-pills nav-stacked custom-side-pills">
+							<li><a href="#"><h2>Patrick Francisco</h2></a></li>
+							<li class="dropdown" role="presentation" >
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"> 
+									Projects 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
+								<ul class="dropdown-menu dropdown-menu-right project-dropdown" role="menu">
+									<li role="presentation"><a href="#">Windows Phone Promo Video</a></li>
+									<li role="presentation"><a href="#">Xbox Music Promo Flyer</a></li>
+									<li role="presentation"><a href="#">Wardriving Project</a></li>
+								</ul>
+							</li>
+							<li role="presentation"><a href="#">LinkedIn</a></li>
+							<li role="presentation"><a href="#">GitHub</a></li>
+						</ul>
 					</div>
-				</div> <!-- /#page-content-wrapper -->
-				
-			</div> <!-- /#wrapper -->
+				</div>
+
+				<div class="col-sm-8 col-md-8">
+					<div class="main-content">
+						<div class="page-header">
+							<h1> Patrick Francisco</h1>
+						</div>
+						<p> test </p>
+						<p> test </p>
+						<p> test </p>
+						<p> test </p>
+						<p> test </p>
+					</div>
+				</div>
+
+			</div>
 		</div> <!-- /container -->
+	
+
 	
 		<!-- added the following two line for bootstrap -->
 		<script src="js/jquery.min.js"></script>
