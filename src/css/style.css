@@ -1,0 +1,61 @@
+
+/*====================================
+======= SIDE BAR NAVIGATION ==========
+=====================================*/
+#side-nav {
+	padding-top: 20px;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
+	width: 175px;
+	z-index: 999;
+	color: #000;
+}
+
+#side-nav > li > a {
+	border-radius: 0px;
+	color: #000;
+	transition: all 0.3s ease 0s;
+}
+
+#side-nav li.dropdown:hover  ul.dropdown-menu{
+	display:block;
+}
+
+#project-dropdown{
+	left: 0px;
+	width: 175px;
+	top: 95%;
+	
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
+	border-style: none;
+	border-radius: 0px;
+	color: #ffffff;
+}
+
+#project-dropdown > li > a{
+	transition: all 0.3s ease 0s;
+}
+
+#project-icon{
+	top: 3px;
+	right: -2px;
+}
+
+/*====================================
+======= MAIN CONTENT STUFF ===========
+=====================================*/
+
+/* 
+using http://www.pearsonified.com/typography/ for font ratio for 750 width... Title: 45px, Headline: 28px, Sub: 22px, Text: 17px, Subtext: 13px;
+*/
+.content-image{
+	width: 100%;
+}
+
+#content-wrap{
+	margin-left: 200px;
+	
+}
+
+p{
+	line-height: 27px;
+}
