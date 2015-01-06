@@ -1,19 +1,36 @@
 
+
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
 =====================================*/
-#side-nav {
-	padding-top: 20px;
+#side-nav { 
+	background-color: #44aaca; /*color of nav box*/
+	padding-top: 10px;
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
 	width: 175px;
 	z-index: 999;
-	color: #000;
+	
+	transition: all 0.3s ease 0s;
 }
 
-#side-nav > li > a {
+#side-nav:hover{ 
+	padding-top: 20px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .175);
+}
+
+
+#side-nav > li > a { 
+	color: #ffffff; /*link text color*/
 	border-radius: 0px;
-	color: #000;
 	transition: all 0.3s ease 0s;
+}
+
+#side-nav > li > a:focus{ 
+	background-color: #000; /*chosen link*/
+}
+
+#side-nav > li > a:hover{ 
+	background-color: #e74c3c; /*hovering over links*/
 }
 
 #side-nav li.dropdown:hover  ul.dropdown-menu{
@@ -28,7 +45,8 @@
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
 	border-style: none;
 	border-radius: 0px;
-	color: #ffffff;
+	color: #10222b;
+	background-color: #e2f0d6;
 }
 
 #project-dropdown > li > a{
@@ -53,9 +71,25 @@ using http://www.pearsonified.com/typography/ for font ratio for 750 width... Ti
 
 #content-wrap{
 	margin-left: 200px;
-	
 }
 
 p{
 	line-height: 27px;
+}
+
+.carousel-inner > .item > img {
+	max-height: 300px;
+	height: 300px;
+	width: auto;
+	margin: auto;
+}
+
+
+
+#home-carousel{
+	background-color: #10222b;
+}
+
+#carousel-buttons{
+	
 }
