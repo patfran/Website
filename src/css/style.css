@@ -1,55 +1,64 @@
-
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
 =====================================*/
-#side-nav { 
-	background-color: #44aaca; /*color of nav box*/
-	padding-top: 10px;
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
+#side-nav { /* base navbar stuff */
+	background-color: #2a2c2b; /*base color of nav box*/
 	width: 175px;
 	z-index: 999;
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
 	
 	transition: all 0.3s ease 0s;
+	padding-top: 30px;
 }
 
-#side-nav:hover{ 
-	padding-top: 20px;
-	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .175);
+#side-nav:hover{ /*navbar hover dropping effect*/
+	padding-top: 40px;
 }
 
 
-#side-nav > li > a { 
-	color: #ffffff; /*link text color*/
+#side-nav > li > a { /* base navbar link stuff */
+	color: #fff; /*link text color*/
 	border-radius: 0px;
-	transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s; /*link hover effect*/
 }
 
-#side-nav > li > a:focus{ 
-	background-color: #000; /*chosen link*/
+#side-nav > li > a:focus{ /*colors chosen link*/
+	background-color: #fff; 
+	color: #2a2c2b;
 }
 
-#side-nav > li > a:hover{ 
-	background-color: #e74c3c; /*hovering over links*/
+#side-nav > li > a:hover{ /*colors link hover*/
+	background-color: #fff;
+	color: #2a2c2b;
 }
 
+/*
 #side-nav li.dropdown:hover  ul.dropdown-menu{
 	display:block;
+	transition: all 0.3s ease 0s;
 }
+*/
 
 #project-dropdown{
 	left: 0px;
 	width: 175px;
 	top: 95%;
 	
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .175);
+	z-index: -1;
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
 	border-style: none;
 	border-radius: 0px;
 	color: #10222b;
-	background-color: #e2f0d6;
+	/*background-color: #e2f0d6;*/
+	transition: all 0.3s ease 0s;
 }
 
-#project-dropdown > li > a{
+
+#project-dropdown > li > a{ /*link hover effect*/
 	transition: all 0.3s ease 0s;
 }
 
@@ -77,19 +86,46 @@ p{
 	line-height: 27px;
 }
 
-.carousel-inner > .item > img {
-	max-height: 300px;
-	height: 300px;
+
+/* ----------------------------
+---- carousel on main page ---- 
+------------------------------- */
+.carousel-inner > .item  {
+	max-height: 422px;
+	min-width: 520px;
 	width: auto;
 	margin: auto;
 }
-
-
 
 #home-carousel{
 	background-color: #10222b;
 }
 
 #carousel-buttons{
+	left: 50%;
+	top: 100%;
+}
+
+#carousel-buttons li{
+	background-color: #fff;
+	border-radius: 0px;
+	border-color: #000;
+}
+
+#carousel-buttons .active{
+	background-color: #000;
+	border-radius: 0px;
+}
+
+.carousel-caption {
+	top: 75%;
+	left: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 10%;
+	width: 66%;
 	
+}
+
+.carousel-caption > h3{
+	margin-top: -10px;
 }

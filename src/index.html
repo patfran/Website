@@ -30,13 +30,12 @@
 				<!-- SIDEBAR -->
 				<div class="col-md-4">
 					<ul id="side-nav" class="nav nav-pills nav-stacked" data-spy="affix">
-						<li><a href="index.html"><h4>Patrick Francisco</h4></a></li>
+						<li role="presentation"><a href="index.html">Home</a></li>
 						<li role="presentation"><a href="https://www.linkedin.com/in/patfran" target="_blank">LinkedIn</a></li>
 						<li role="presentation"><a href="https://github.com/ppf3" target="_blank">GitHub</a></li>
 						<li role="presentation" class="dropdown">
 							<a id="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" href="#"> 
-								Projects 
-								<span id="project-icon" class="glyphicon glyphicon-chevron-down"></span>
+								Projects <span id="project-icon" class="glyphicon glyphicon-chevron-down"></span>
 							</a>
 							<ul id="project-dropdown" class="dropdown-menu dropdown-menu-right" role="menu">
 								<li role="presentation"><a href="projects/contestvideo.html">Windows Phone Video</a></li>
@@ -56,7 +55,7 @@
 					<div class="content">
 						<div class="page-header">
 							<h1> 
-								Patrick Francisco <br><small>For a more awesome, and technological world</small> 
+								<strong>Patrick Francisco</strong> <br><small>For a more awesome, and technological world</small> 
 							</h1>
 						</div>
 						<!-- the meat of the content goes here -->
@@ -74,23 +73,40 @@
 							<!-- slide wrapper-->
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img src="img/contestflyer.jpg"></img>
-									<div class="carousel-caption">
-										<p>Contest Flyer</p>
-									</div>
+									<a href="projects/contestflyer.html">
+										<img src="img/home-contestflyer.jpg" alt="Xbox Music Flyer"></img>
+										<div class="carousel-caption">
+											<h3><small>Project</small> Xbox Music Promo</h3>
+										</div>
+									</a>
 								</div>
 								
 								<div class="item">
-									<img src="img/schoolflyer.png"></img>
-									<div class="carousel-caption">
-										<p>School Flyer</p>
-									</div>
+									<a href="projects/schoolflyer.html">
+										<img src="img/home-schoolflyer.jpg" alt="School Event Flyer"></img>
+										<div class="carousel-caption">
+											<h3><small>Project</small> Campus Event Flyer</h3>
+										</div>
+									</a>
 								</div>
 								
-								
+								<div class="item">
+									<a href="projects/contestvideo.html">
+										<img src="img/home-contestvideo.jpg"></img>
+										<div class="carousel-caption">
+											<h3><small>Project </small>Windows Phone Promo</h3>
+										</div>
+									</a>
+								</div>
 							</div>
 						
-							
+							<!-- controls -->
+							<a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							</a>
+							<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							</a>
 						</div>
 						
 
