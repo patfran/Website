@@ -10,17 +10,21 @@
 	width: 175px;
 	z-index: 999;
 	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
+	padding-top: 40px;
 	
 	transition: all 0.3s ease 0s;
-	padding-top: 30px;
+	
+	opacity: 0.8;
 }
 
 #side-nav:focus{ /*navbar hover dropping effect*/
-	padding-top: 40px;
+	/*padding-top: 40px;*/
+	opacity: 1;
 }
 
 #side-nav:hover{ /*navbar hover dropping effect*/
-	padding-top: 40px;
+	/*padding-top: 40px;*/
+	opacity: 1;
 }
 
 
