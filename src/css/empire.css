@@ -100,7 +100,7 @@ textarea {
 /* gray is #7f8c8d */
 
 .emp-wrapper {
-	width: 980px;
+	width: 750px;
 	margin: auto;
 }
 
@@ -133,6 +133,7 @@ textarea {
 }
 
 #emp-navbar {
+	width: 750px;
 	height: 50px;
 	color: #ffffff;
 	background-color: #3f8252;
@@ -185,7 +186,7 @@ textarea {
 }
 
 #facebook {
-	width: 980px;
+	width: 750px;
 	height: 50px;
 	background-color: #485e8f;
 	border-radius: 5px;
@@ -216,7 +217,7 @@ textarea {
 
 #services-top{
 	float: right;
-	width: 955px;
+	width: 725px;
 	background-color: #f7f7f7;
 	color: #777777;
 	border-bottom: 1px solid #ffffff;
@@ -236,7 +237,7 @@ textarea {
 }
 
 #services-bottom{
-	width: 950px;
+	width: 750px;
 	background-color: #f7f7f7;
 	color: #777777;
 }
@@ -253,74 +254,60 @@ textarea {
 
 #heating{
 	background-color: #eef1f6;
+	width: 750px;
 }
 
 #heating p{
-	width: 980px;
+	width: 750px;
 	margin: auto;
 }
 
 #photos-heat{
-	width: 800px;
+	width: 750px;
 	height: 200px;
 	overflow: hidden;
 	margin: auto;
 }
 
 #photos-heat img{
-	width: 250px;
+	width: 30%;
 }
 
 #cooling{
+	width: 750px;
 	background-color: #ffffff;
 }
 
 #cooling p{
-	width: 980px;
+	width: 750px;
 	margin: auto;
 }
 
 #photos-cool{
-	width: 800px;
+	width: 750px;
 	height: 200px;
 	overflow: hidden;
 	margin: auto;
 }
 
 #photos-cool img{
-	width: 250px;
+	width: 30%;
 }
 
 #emp-footer{
+	width: 750px;
 	background-color: #eef1f6;
 	text-align: center;
 }
 
 #emp-footer p{
-	width: 980px;
+	width: 750px;
 	margin: auto;
 }
 
 #emp-footer img{
-	width: 980px;
+	width: 750px;
 }
-
-#contestvideo{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	vertical-align: center;
-}  
-   
-#contestflyer{
-	width: 960px;
-}
-   
-#flyer{
-	width: 596px;
-}
-   
-   
 
 
 
