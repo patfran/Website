@@ -37,61 +37,15 @@
 					
 					
 						<div class="page-header">
-							<h1> 
-								<strong>Hi!</strong>
-							</h1>
+							
 						</div>
 						<!-- the meat of the content goes here -->
 						
 						<section id="zero">
-						<div id="home-carousel" class="carousel slide" data-ride="carousel">
-						
-							<!-- the little indicators-->
-							<ol id="carousel-buttons" class="carousel-indicators">
-								<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-								<li data-target="#home-carousel" data-slide-to="1"></li>
-								<li data-target="#home-carousel" data-slide-to="2"></li>
-							</ol>
+							<h1> 
+								<strong>Hi.</strong>
+							</h1>
 							
-							<!-- slide wrapper-->
-							
-								<div class="carousel-inner" role="listbox">
-									<div class="item active">
-										<a href="projects/contestflyer.html">
-											<img src="img/home-contestflyer.jpg" alt="Xbox Music Flyer"></img>
-											<div class="carousel-caption">
-												<h3><small>Project</small> Xbox Music Flyer</h3>
-											</div>
-										</a>
-									</div>
-									
-									<div class="item">
-										<a href="projects/contestvideo.html">
-											<img src="img/home-contestvideo.jpg" alt="Windows Phone Video"></img>
-											<div class="carousel-caption">
-												<h3><small>Project</small> Windows Phone Video</h3>
-											</div>
-										</a>
-									</div>
-									
-									<div class="item">
-										<a href="projects/schoolflyer.html">
-											<img src="img/home-schoolflyer.jpg" alt="Campus Event Flyer"></img>
-											<div class="carousel-caption">
-												<h3><small>Project</small> Campus Event Poster</h3>
-											</div>
-										</a>
-									</div>								
-								</div>
-						
-							<!-- controls -->
-							<a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							</a>
-							<a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							</a>
-						</div>
 						</section>
 						
 						
@@ -102,11 +56,28 @@
 								<div class="img-bar-caption">
 									<p>Xbox Music Flyer (2014)</p> 
 								</div>
-							</div>
+							</div>	
+							
 							<div class="img-bar">
 								<img src="img/home-schoolflyer.jpg"/>
 								<div class="img-bar-caption">
-									<p>School Event Flyer (2014)</p> 
+									<p>Campus Event Flyer (2014)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="http://i.imgur.com/t407kb2.png"/>
+								<div class="img-bar-caption">
+									<p>Rosetta Image Scale (2014)</p> 
+									<!-- October 2014 -->
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="http://i.imgur.com/4UwMdub.jpg"/>
+								<div class="img-bar-caption">
+									<p>Rosetta Image Scale 2 (2014)</p> 
+									<!-- Jan 2015 -->
 								</div>
 							</div>
 							
@@ -114,7 +85,7 @@
 						</section>
 						
 						<section id="two">
-							TWO
+							<!-- SPONGEBOB video August 2013 -->
 						</section>					
 							
 						<section id="three">
