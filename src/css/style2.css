@@ -1,18 +1,24 @@
+@font-face {
+	font-family: 'Koushiki';
+	src: url('../fonts/KoushikiSans-Light.ttf');
+}
+
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Koushiki', sans-serif;
 }
 
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
 =====================================*/
 #side-nav { /* navbar base look*/
-	background-color: #2a2c2b; /*base color of nav box*/
+	background-color: #fff; /*#2a2c2b; base color of nav box*/
 	z-index: 999;
 	
 	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
 	padding-top: 40px;
 	
 	width: 175px;
+	height: 100%;
 	
 	transition: all 0.3s ease 0s;
 	
@@ -32,19 +38,19 @@
 
 
 #side-nav > li > a { /* navbar base links */
-	color: #fff; /*link text color*/
+	color: #000; /*link text color*/
 	border-radius: 0px;
 	transition: all 0.3s ease 0s; /*link hover effect*/
 }
 
 #side-nav > li > a:focus{ /*colors chosen link*/
-	background-color: #fff; 
-	color: #2a2c2b;
+	background-color: #aaa; 
+	color: #000;
 }
 
 #side-nav > li > a:hover{ /*colors link hover*/
-	background-color: #fff;
-	color: #2a2c2b;
+	background-color: #aaa;
+	color: #000;
 }
 
 /*
@@ -62,13 +68,13 @@
 	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
 	border-style: none;
 	border-radius: 0px;
-	background-color: #2a2c2b;
+	background-color: #fff;
 	transition: all 0.3s ease 0s;
 }
 
 
 #project-dropdown > li > a{ /*link hover effect*/
-	color: #fff;
+	color: #aaa;
 	transition: all 0.3s ease 0s;
 }
 
