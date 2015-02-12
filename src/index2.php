@@ -37,63 +37,143 @@
 					
 					
 						<div class="page-header">
-							
 						</div>
 						<!-- the meat of the content goes here -->
 						
-						<section id="zero">
+						<section id="patrick">
 							<h1> 
-								<strong>Hi.</strong>
-							</h1>
-							
+								<strong>Hello!</strong>
+							</h1>	
 						</section>
 						
 						
 						
-						<section id="one">
-							<div class="img-bar">
-								<img src="img/home-contestflyer.jpg"/>
-								<div class="img-bar-caption">
-									<p>Xbox Music Flyer (2014)</p> 
-								</div>
-							</div>	
+						<section id="designs">
 							
 							<div class="img-bar">
-								<img src="img/home-schoolflyer.jpg"/>
+								<img src="http://i.imgur.com/4UwMdub.jpg"/>
 								<div class="img-bar-caption">
-									<p>Campus Event Flyer (2014)</p> 
+									<p>Rosetta Image Scale #2 (1.2015)</p>  
+									<!-- Jan 2015 -->
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/empireshot2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/datingapp.jpg"/>
+								<div class="img-bar-caption">
+									<p>Dating App UX Design (11.2014)</p>  
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/schoolflyer2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Campus Event Flyer (11.2014)</p>  
 								</div>
 							</div>
 							
 							<div class="img-bar">
 								<img src="http://i.imgur.com/t407kb2.png"/>
 								<div class="img-bar-caption">
-									<p>Rosetta Image Scale (2014)</p> 
+									<p>Rosetta Image Scale #1 (10.2014)</p> 
 									<!-- October 2014 -->
+								</div>
+							</div>
+	
+							<div class="img-bar">
+								<img src="img/home-contestflyer.jpg"/>
+								<div class="img-bar-caption">
+									<p>Xbox Music Flyer (3.2014)</p> 
+								</div>
+							</div>	
+							
+						</section>
+						
+						<section id="videos">
+							<div class="img-bar">
+								<img src="img/wardriving.jpg"/>
+								<div class="img-bar-caption">
+									<p>War Driving (12.2014)</p> 
+								</div>
+							</div>	
+							
+							<div class="img-bar">
+								<img src="img/forana.jpg"/>
+								<div class="img-bar-caption">
+									<p>To Kill for an A (12.2013)</p> 
+								</div>
+							</div>	
+							
+							<div class="img-bar">
+								<img src="img/spongebob.jpg"/>
+								<div class="img-bar-caption">
+									<p>Spongebob Sings Katy Perry's Roar (8.2013)</p> 
+								</div>
+							</div>	
+							
+							<div class="img-bar">
+								<img src="img/home-contestvideo2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Windows Phone Promo Video (3.2013)</p> 
+								</div>
+							</div>	
+							
+							<div class="img-bar">
+								<img src="img/1fort.jpg"/>
+								<div class="img-bar-caption">
+									<p>"1fort" on Source Filmmaker (7.2012)</p> 
+								</div>
+							</div>	
+							
+							<div class="img-bar">
+								<img src="img/newshoes.jpg"/>
+								<div class="img-bar-caption">
+									<p>New Shoes Music Video (10.2009)</p> 
+								</div>
+							</div>	
+							<!-- SPONGEBOB video August 2013 -->
+						</section>					
+							
+						<section id="photos">
+							<div class="img-bar">
+								<img src="img/photos/truck.jpg"/>
+								<div class="img-bar-caption">
+									<p>Friend's Truck (6.2014)</p> 
 								</div>
 							</div>
 							
 							<div class="img-bar">
-								<img src="http://i.imgur.com/4UwMdub.jpg"/>
+								<img src="img/photos/sandy.jpg"/>
 								<div class="img-bar-caption">
-									<p>Rosetta Image Scale 2 (2014)</p> 
-									<!-- Jan 2015 -->
+									<p>Day After Superstorm Sandy (11.2012)</p> 
 								</div>
 							</div>
 							
+							<div class="img-bar">
+								<img src="http://i.imgur.com/6rISH.jpg"/>
+								<div class="img-bar-caption">
+									<p>Light in Foggy Night (10.2012)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/photos/wtc.jpg"/>
+								<div class="img-bar-caption">
+									<p>One World Trade Center (7.2012)</p> 
+								</div>
+							</div>
 							
 						</section>
-						
-						<section id="two">
-							<!-- SPONGEBOB video August 2013 -->
-						</section>					
 							
-						<section id="three">
-							THREE
-						</section>
-							
-						<section id="four">
-							FOUR
+						<section id="games">
+							FOUR - GAMES
 						</section>	
 						
 						
@@ -132,6 +212,17 @@
 					}
 				}
 			});
+		</script>
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-59716201-1', 'auto');
+		  ga('send', 'pageview');
+
 		</script>
 
     </body>
