@@ -18,7 +18,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
     </head>
-    <body>
+    <body data-spy="scrollspy" data-target="#side-nav">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,6 +34,8 @@
 				<!-- CONTENT -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
+					
+					
 						<div class="page-header">
 							<h1> 
 								<strong>Hi!</strong>
@@ -41,7 +43,7 @@
 						</div>
 						<!-- the meat of the content goes here -->
 						
-						
+						<section id="zero">
 						<div id="home-carousel" class="carousel slide" data-ride="carousel">
 						
 							<!-- the little indicators-->
@@ -52,36 +54,35 @@
 							</ol>
 							
 							<!-- slide wrapper-->
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<a href="projects/contestflyer.html">
-										<img src="img/home-contestflyer.jpg" alt="Xbox Music Flyer"></img>
-										<div class="carousel-caption">
-											<h3><small>Project</small> Xbox Music Flyer</h3>
-										</div>
-									</a>
+							
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<a href="projects/contestflyer.html">
+											<img src="img/home-contestflyer.jpg" alt="Xbox Music Flyer"></img>
+											<div class="carousel-caption">
+												<h3><small>Project</small> Xbox Music Flyer</h3>
+											</div>
+										</a>
+									</div>
+									
+									<div class="item">
+										<a href="projects/contestvideo.html">
+											<img src="img/home-contestvideo.jpg" alt="Windows Phone Video"></img>
+											<div class="carousel-caption">
+												<h3><small>Project</small> Windows Phone Video</h3>
+											</div>
+										</a>
+									</div>
+									
+									<div class="item">
+										<a href="projects/schoolflyer.html">
+											<img src="img/home-schoolflyer.jpg" alt="Campus Event Flyer"></img>
+											<div class="carousel-caption">
+												<h3><small>Project</small> Campus Event Poster</h3>
+											</div>
+										</a>
+									</div>								
 								</div>
-								
-								<div class="item">
-									<a href="projects/contestvideo.html">
-										<img src="img/home-contestvideo.jpg" alt="Windows Phone Video"></img>
-										<div class="carousel-caption">
-											<h3><small>Project</small> Windows Phone Video</h3>
-										</div>
-									</a>
-								</div>
-								
-								<div class="item">
-									<a href="projects/schoolflyer.html">
-										<img src="img/home-schoolflyer.jpg" alt="Campus Event Flyer"></img>
-										<div class="carousel-caption">
-											<h3><small>Project</small> Campus Event Poster</h3>
-										</div>
-									</a>
-								</div>
-								
-								
-							</div>
 						
 							<!-- controls -->
 							<a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
@@ -91,6 +92,40 @@
 								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 							</a>
 						</div>
+						</section>
+						
+						
+						
+						<section id="one">
+							<div class="img-bar">
+								<img src="img/home-contestflyer.jpg"/>
+								<div class="img-bar-caption">
+									<p>Xbox Music Flyer (2014)</p> 
+								</div>
+							</div>
+							<div class="img-bar">
+								<img src="img/home-schoolflyer.jpg"/>
+								<div class="img-bar-caption">
+									<p>School Event Flyer (2014)</p> 
+								</div>
+							</div>
+							
+							
+						</section>
+						
+						<section id="two">
+							TWO
+						</section>					
+							
+						<section id="three">
+							THREE
+						</section>
+							
+						<section id="four">
+							FOUR
+						</section>	
+						
+						
 						
 
 					</div>
@@ -110,6 +145,23 @@
 		<!-- added the following two line for bootstrap -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		
+		<script>
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+					|| location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					   if (target.length) {
+						 $('html,body').animate({
+							 scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		</script>
 
     </body>
 </html>
