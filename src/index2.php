@@ -17,6 +17,11 @@
 		<link rel="stylesheet" href="css/style2.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
+		<!-- 
+		Definitely not focused on optimization at the moment. 
+		Becoming comfortable with HTML, CSS, and etc. is my first and foremost objective.
+		-->
+		
     </head>
     <body data-spy="scrollspy" data-target="#side-nav">
         <!--[if lt IE 8]>
@@ -28,89 +33,37 @@
 			<div class="row">
 			
 				<!-- SIDEBAR -->
-					<?php include("index2_nav.php");?>
+					<?php include("../index2_nav.php");?>
 				<!-- /END SIDEBAR -->
 
 				<!-- CONTENT -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
 					
-					
+					<!--
 						<div class="page-header">
-						</div>
+						</div>-->
 						<!-- the meat of the content goes here -->
 						
+						<!--===== PATRICK =====-->
 						<section id="patrick">
 							<h1> 
+								<br>
 								<p><strong>Hi!</strong><p>
 								<br>
-								<p>My name is Patrick, and I enjoy designing digital things.</p>
+								<p>My name is Patrick, and I enjoy creating digital things.</p>
 							</h1>	
 						</section>
-						
-						
-						
-						<section id="designs">
-							
-							<div class="img-bar">
-								<img src="http://i.imgur.com/4UwMdub.jpg"/>
-								<div class="img-bar-caption">
-									<p>Rosetta Image Scale #2 (1.2015)</p>  
-									<!-- Jan 2015 -->
-								</div>
-							</div>
-							
-							<div class="img-bar">
-								<img src="img/empireshot2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Empire Website Mockup (12.2014)</p> 
-								</div>
-							</div>
-							
-							<div class="img-bar">
-								<img src="img/bluegirlcrop.jpg"/>
-								<div class="img-bar-caption">
-									<p>Drawing (4.2014)</p> 
-								</div>
-							</div>
-							
-							<div class="img-bar">
-								<img src="img/datingapp.jpg"/>
-								<div class="img-bar-caption">
-									<p>Dating App UX Design (11.2014)</p>  
-								</div>
-							</div>
-							
-							<div class="img-bar">
-								<img src="img/schoolflyer2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Campus Event Flyer (11.2014)</p>  
-								</div>
-							</div>
-							
-							<div class="img-bar">
-								<img src="http://i.imgur.com/t407kb2.png"/>
-								<div class="img-bar-caption">
-									<p>Rosetta Image Scale #1 (10.2014)</p> 
-									<!-- October 2014 -->
-								</div>
-							</div>
 	
-							<div class="img-bar">
-								<img src="img/home-contestflyer.jpg"/>
-								<div class="img-bar-caption">
-									<p>Xbox Music Flyer (3.2014)</p> 
-								</div>
-							</div>	
-							
-						</section>
-						
+						<!--===== VIDEOS =====-->
 						<section id="videos">
 							<div class="img-bar">
-								<img src="img/wardriving.jpg"/>
-								<div class="img-bar-caption">
-									<p>War Driving (12.2014)</p> 
-								</div>
+								<a href="videos/wardriving.php">
+									<img src="img/wardriving.jpg"/>
+									<div class="img-bar-caption">
+										<p>War Driving (12.2014)</p> 
+									</div>
+								</a>
 							</div>	
 							
 							<div class="img-bar">
@@ -137,32 +90,37 @@
 							<div class="img-bar">
 								<img src="img/1fort.jpg"/>
 								<div class="img-bar-caption">
-									<p>"1fort" on Source Filmmaker (7.2012)</p> 
+									<p>"1fort" (Source Filmmaker) (7.2012)</p> 
 								</div>
 							</div>	
 							
+							<!--
 							<div class="img-bar">
 								<img src="img/newshoes.jpg"/>
 								<div class="img-bar-caption">
 									<p>New Shoes Music Video (10.2009)</p> 
 								</div>
 							</div>	
+							-->
 						</section>					
-							
+						
+						<!--===== PHOTOS =====-->
 						<section id="photos">
 							<div class="img-bar">
 								<img src="img/photos/truck.jpg"/>
 								<div class="img-bar-caption">
-									<p>Friend's Truck (6.2014)</p> 
+									<p>Truck Composition Shot(6.2014)</p> 
 								</div>
 							</div>
 							
+							<!--
 							<div class="img-bar">
 								<img src="img/photos/snowcrop.jpg"/>
 								<div class="img-bar-caption">
 									<p>Snow (1.2014)</p> 
 								</div>
 							</div>
+							-->
 							
 							<div class="img-bar">
 								<img src="img/photos/carcrop.jpg"/>
@@ -174,7 +132,7 @@
 							<div class="img-bar">
 								<img src="img/photos/sandy.jpg"/>
 								<div class="img-bar-caption">
-									<p>Day After Superstorm Sandy (11.2012)</p> 
+									<p>Superstorm Sandy (11.2012)</p> 
 								</div>
 							</div>
 							
@@ -192,15 +150,84 @@
 								</div>
 							</div>
 							
-						</section>
+						</section>					
+						
+						<!--===== DESIGNS =====-->
+						<section id="designs">
 							
+							<!--
+							<div class="img-bar">
+								<img src="http://i.imgur.com/4UwMdub.jpg"/>
+								<div class="img-bar-caption">
+									<p>Rosetta Image Scale #2 (1.2015)</p>  
+								</div>
+							</div>
+							-->
+							
+							<!--
+							<div class="img-bar">
+								<img src="img/empireshot2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							-->
+							
+							<div class="img-bar">
+								<img src="img/datingapp.jpg"/>
+								<div class="img-bar-caption">
+									<p>Dating App Prototype (12.2014)</p>  
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/schoolflyer2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Campus Event Flyer (11.2014)</p>  
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="http://i.imgur.com/t407kb2.png"/>
+								<div class="img-bar-caption">
+									<p>Rosetta Image Scale (10.2014)</p> 
+									<!-- October 2014 -->
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/bluegirlcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Digital Drawing (4.2014)</p> 
+								</div>
+							</div>
+	
+							<div class="img-bar">
+								<img src="img/home-contestflyer.jpg"/>
+								<div class="img-bar-caption">
+									<p>Xbox Music Flyer (3.2014)</p> 
+								</div>
+							</div>	
+							
+						</section>
+						
+						<!--===== GAMES =====-->
 						<section id="games">
+							<div class="img-bar">
+								<img src="img/games/escape2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Escape (Oculus Rift VR) (2.2014)</p> 
+								</div>
+							</div>
+							
+							<!--
 							<div class="img-bar">
 								<img src="img/games/sorryo.jpg"/>
 								<div class="img-bar-caption">
 									<p>Super Sorry-o Bros.! (11.2012)</p> 
 								</div>
 							</div>
+							-->
 							
 							
 							<div class="img-bar">
@@ -210,7 +237,6 @@
 								</div>
 							</div>
 						</section>	
-						
 						
 						
 
@@ -233,6 +259,12 @@
 		<script src="js/bootstrap.min.js"></script>
 		
 		<script>
+			$('body').scrollspy({
+				target: '#side-nav'
+			})
+		</script>
+		<!-- scrolling animation -->
+		<script>
 			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
 					|| location.hostname == this.hostname) {
@@ -249,6 +281,7 @@
 			});
 		</script>
 		
+		<!-- Google Analytic stuff -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

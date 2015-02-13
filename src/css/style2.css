@@ -7,12 +7,17 @@
 	font-family: 'Koushiki', sans-serif;
 }
 
+body{
+	min-width: 465px;
+	width: auto !important;
+	width: 465px;
+}
 
 
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
 =====================================*/
-#side-nav { /* navbar base look*/
+#side-nav  .nav { /* navbar base look*/
 	background-color: #fff; /*#2a2c2b; base color of nav box*/
 	z-index: 999;
 	
@@ -27,40 +32,37 @@
 	opacity: 0.8;
 }
 
-#side-nav:focus{ /*navbar hover dropping effect*/
+#side-nav .nav :focus{ /*navbar hover dropping effect*/
 	/*padding-top: 40px;*/
 	opacity: 1;
 }
 
-#side-nav:hover{ /*navbar hover dropping effect*/
+#side-nav .nav :hover{ /*navbar hover dropping effect*/
 	/*padding-top: 40px;*/
 	opacity: 1;
 }
 
-
-
-#side-nav > li > a { /* navbar base links */
+#side-nav .nav > li > a { /* navbar base links */
 	color: #000; /*link text color*/
 	border-radius: 0px;
 	transition: all 0.3s ease 0s; /*link hover effect*/
 }
 
-#side-nav > li > a:focus{ /*colors chosen link*/
+/*
+#side-nav .nav > li > a:focus{ colors chosen link
 	background-color: #aaa; 
 	color: #000;
-}
+}*/
 
-#side-nav > li > a:hover{ /*colors link hover*/
+#side-nav .nav > li > a:hover{ /*colors link hover*/
 	background-color: #aaa;
 	color: #000;
 }
 
-/*
-#side-nav > #project-dropdown:hover{
-	display:block;
-	color: blue;
-}*/
-
+#side-nav .nav > li.active > a { /*colors link hover*/
+	background-color: #aaa;
+	color: #000;
+}
 
 #project-dropdown{
 	left: 0px;
@@ -110,10 +112,9 @@
 #patrick {
 	background-color: #fff;
 	color: #000;
-	height: 150px;
+	height: 200px;
 	margin: auto;
 }
-
 
 .img-bar {
 	position: relative;
@@ -174,69 +175,6 @@ p{
 	height: 846px;
 }
 
-
-/* ----------------------------
----- carousel on main page ---- 
-------------------------------- */
-.carousel-inner > .item  {
-	max-height: 422px;
-	min-width: 520px;
-	width: auto;
-	margin: auto;
-}
-
-#home-carousel{
-	background-color: #10222b;
-	transition: all 0.3s ease 0s;
-}
-
-#home-carousel:hover{
-	background-color: #10222b;
-	opacity: 0.95;
-}
-
-#carousel-buttons{
-	left: 50%;
-	top: 100%;
-}
-
-#carousel-buttons li{
-	background-color: #fff;
-	border-radius: 0px;
-	border-color: #000;
-}
-
-#carousel-buttons .active{
-	background-color: #000;
-	border-radius: 0px;
-}
-
-.carousel-control{
-	opacity: 0.55;
-	transition: all 0.3s ease 0s;
-}
-
-.carousel-control:focus{
-	opacity: 0.55;
-	transition: all 0.3s ease 0s;
-}
-
-.carousel-control:hover{
-	opacity: 1;
-}
-
-.carousel-caption {
-	top: 75%;
-	left: 0%;
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 10%;
-	width: 66%;
-	
-}
-
-.carousel-caption > h3{
-	margin-top: -10px;
-}
 
 /* -------------------------
 ---- footer adjustments ---- 
