@@ -42,7 +42,9 @@
 						
 						<section id="patrick">
 							<h1> 
-								<strong>Hello!</strong>
+								<p><strong>Hi!</strong><p>
+								<br>
+								<p>My name is Patrick, and I enjoy designing digital things.</p>
 							</h1>	
 						</section>
 						
@@ -62,6 +64,13 @@
 								<img src="img/empireshot2.jpg"/>
 								<div class="img-bar-caption">
 									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/bluegirlcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Drawing (4.2014)</p> 
 								</div>
 							</div>
 							
@@ -138,7 +147,6 @@
 									<p>New Shoes Music Video (10.2009)</p> 
 								</div>
 							</div>	
-							<!-- SPONGEBOB video August 2013 -->
 						</section>					
 							
 						<section id="photos">
@@ -146,6 +154,20 @@
 								<img src="img/photos/truck.jpg"/>
 								<div class="img-bar-caption">
 									<p>Friend's Truck (6.2014)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/photos/snowcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Snow (1.2014)</p> 
+								</div>
+							</div>
+							
+							<div class="img-bar">
+								<img src="img/photos/carcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Classic Car Show (9.2012)</p> 
 								</div>
 							</div>
 							
@@ -173,7 +195,20 @@
 						</section>
 							
 						<section id="games">
-							FOUR - GAMES
+							<div class="img-bar">
+								<img src="img/games/sorryo.jpg"/>
+								<div class="img-bar-caption">
+									<p>Super Sorry-o Bros.! (11.2012)</p> 
+								</div>
+							</div>
+							
+							
+							<div class="img-bar">
+								<img src="img/games/pong2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Pong (9.2012)</p> 
+								</div>
+							</div>
 						</section>	
 						
 						
