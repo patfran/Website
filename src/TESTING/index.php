@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco</title>
+		<title>Patrick Francisco - Portfolio</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -14,7 +14,7 @@
 		<!-- CORE BOOTSTRAP CSS -->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style2.css">
+		<link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
 		<!-- 
@@ -33,68 +33,74 @@
 			<div class="row">
 			
 				<!-- SIDEBAR -->
-					<?php include("index2_nav.php");?>
+				<?php include("nav_index.php");?>
 				<!-- /END SIDEBAR -->
 
 				<!-- CONTENT -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
-					
-					<!--
-						<div class="page-header">
-						</div>-->
 						<!-- the meat of the content goes here -->
 						
 						<!--===== PATRICK =====-->
 						<section id="patrick">
+						
 							<h1> 
-								<br>
 								<p><strong>Hi!</strong><p>
 								<br>
 								<p>My name is Patrick, and I enjoy creating digital things.</p>
 							</h1>	
+							
 						</section>
 	
 						<!--===== VIDEOS =====-->
 						<section id="videos">
+						
 							<div class="img-bar">
 								<a href="videos/wardriving.php">
 									<img src="img/wardriving.jpg"/>
 									<div class="img-bar-caption">
-										<p>War Driving (12.2014)</p> 
+										<p>War Driving Project (12.2014)</p> 
 									</div>
 								</a>
 							</div>	
 							
 							<div class="img-bar">
-								<img src="img/forana.jpg"/>
-								<div class="img-bar-caption">
-									<p>To Kill for an A (12.2013)</p> 
-								</div>
+								<a href="videos/forana.php">
+									<img src="img/forana.jpg"/>
+									<div class="img-bar-caption">
+										<p>To Kill for an A (12.2013)</p> 
+									</div>
+								</a>
 							</div>	
 							
 							<div class="img-bar">
-								<img src="img/spongebob.jpg"/>
-								<div class="img-bar-caption">
-									<p>Spongebob Sings Katy Perry's Roar (8.2013)</p> 
-								</div>
+								<a href="videos/spongebob.php">
+									<img src="img/spongebob.jpg"/>
+									<div class="img-bar-caption">
+										<p>Spongebob Sings Katy Perry's Roar (8.2013)</p> 
+									</div>
+								</a>
 							</div>	
 							
 							<div class="img-bar">
-								<img src="img/home-contestvideo2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Windows Phone Promo Video (3.2013)</p> 
-								</div>
+								<a href="videos/phonepromo.php">
+									<img src="img/home-contestvideo2.jpg"/>
+									<div class="img-bar-caption">
+										<p>Windows Phone Promo Video (3.2013)</p> 
+									</div>
+								</a>
 							</div>	
 							
 							<div class="img-bar">
+								<a href="videos/1fort.php">
 								<img src="img/1fort.jpg"/>
 								<div class="img-bar-caption">
-									<p>"1fort" (Source Filmmaker) (7.2012)</p> 
+									<p>1fort (7.2012)</p> 
 								</div>
+								</a>
 							</div>	
 							
-							<!--
+							<!-- Maybe add in UCrew unboxing compilation video!
 							<div class="img-bar">
 								<img src="img/newshoes.jpg"/>
 								<div class="img-bar-caption">
@@ -258,11 +264,13 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		
+		<!-- tracks active scroll thing -->
 		<script>
 			$('body').scrollspy({
 				target: '#side-nav'
 			})
 		</script>
+		
 		<!-- scrolling animation -->
 		<script>
 			$('a[href*=#]:not([href=#])').click(function() {
