@@ -64,6 +64,7 @@
 								</a>
 							</div>	
 							
+							<!--
 							<div class="img-bar">
 								<a href="videos/forana.php">
 									<img src="img/forana.jpg"/>
@@ -71,7 +72,7 @@
 										<p>To Kill for an A (12.2013)</p> 
 									</div>
 								</a>
-							</div>	
+							</div>	-->
 							
 							<div class="img-bar">
 								<a href="videos/spongebob.php">
@@ -113,10 +114,12 @@
 						<!--===== PHOTOS =====-->
 						<section id="photos">
 							<div class="img-bar">
-								<img src="img/photos/truck.jpg"/>
-								<div class="img-bar-caption">
-									<p>Truck Composition Shot(6.2014)</p> 
-								</div>
+								<a href="photos/truck.php">
+									<img src="img/photos/truck.jpg"/>
+									<div class="img-bar-caption">
+										<p>Truck Composition (6.2014)</p> 
+									</div>
+								</a>
 							</div>
 							
 							<!--
@@ -128,32 +131,39 @@
 							</div>
 							-->
 							
+							<!--
 							<div class="img-bar">
 								<img src="img/photos/carcrop.jpg"/>
 								<div class="img-bar-caption">
 									<p>Classic Car Show (9.2012)</p> 
 								</div>
+							</div>-->
+							
+							<div class="img-bar">
+								<a href="photos/sandy.php">
+									<img src="img/photos/sandy.jpg"/>
+									<div class="img-bar-caption">
+										<p>Superstorm Sandy (11.2012)</p> 
+									</div>
+								</a>
 							</div>
 							
 							<div class="img-bar">
-								<img src="img/photos/sandy.jpg"/>
-								<div class="img-bar-caption">
-									<p>Superstorm Sandy (11.2012)</p> 
-								</div>
+								<a href="photos/fog.php">
+									<img src="http://i.imgur.com/6rISH.jpg"/>
+									<div class="img-bar-caption">
+										<p>Foggy Night (10.2012)</p> 
+									</div>
+								</a>
 							</div>
 							
 							<div class="img-bar">
-								<img src="http://i.imgur.com/6rISH.jpg"/>
-								<div class="img-bar-caption">
-									<p>Light in Foggy Night (10.2012)</p> 
-								</div>
-							</div>
-							
-							<div class="img-bar">
+								<a href="photos/wtc.php">
 								<img src="img/photos/wtc.jpg"/>
 								<div class="img-bar-caption">
 									<p>One World Trade Center (7.2012)</p> 
 								</div>
+								</a>
 							</div>
 							
 						</section>					
