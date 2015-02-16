@@ -3,7 +3,7 @@
 		<li role="presentation"><a href="../index.php#patrick">PATRICK FRANCISCO</a></li>
 		<li role="presentation"><a href="../index.php#videos">VIDEOS</a></li>
 		<li role="presentation"><a href="../index.php#photos">PHOTOS</a></li>
-		<li role="presentation"><a href="../index.php#designs">DESIGNS</a></li>
+		<li role="presentation"><a href="../index.php#designs">GRAPHICS</a></li>
 		<li role="presentation"><a href="../index.php#games">GAMES</a></li>
 	</ul>
 </div>

@@ -159,10 +159,10 @@
 							
 							<div class="img-bar">
 								<a href="photos/wtc.php">
-								<img src="img/photos/wtc.jpg"/>
-								<div class="img-bar-caption">
-									<p>One World Trade Center (7.2012)</p> 
-								</div>
+									<img src="img/photos/wtc.jpg"/>
+									<div class="img-bar-caption">
+										<p>One World Trade Center (7.2012)</p> 
+									</div>
 								</a>
 							</div>
 							
@@ -190,39 +190,49 @@
 							-->
 							
 							<div class="img-bar">
-								<img src="img/datingapp.jpg"/>
-								<div class="img-bar-caption">
-									<p>Dating App Prototype (12.2014)</p>  
-								</div>
+								<a href="graphics/dating.php">
+									<img src="img/datingapp.jpg"/>
+									<div class="img-bar-caption">
+										<p>Dating App Prototype (12.2014)</p>  
+									</div>
+								</a>
 							</div>
 							
 							<div class="img-bar">
-								<img src="img/schoolflyer2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Campus Event Flyer (11.2014)</p>  
-								</div>
+								<a href="graphics/campusflyer.php">
+									<img src="img/schoolflyer2.jpg"/>
+									<div class="img-bar-caption">
+										<p>Campus Event Flyer (11.2014)</p>  
+									</div>
+								</a>
 							</div>
 							
 							<div class="img-bar">
-								<img src="http://i.imgur.com/t407kb2.png"/>
-								<div class="img-bar-caption">
-									<p>Rosetta Image Scale (10.2014)</p> 
-									<!-- October 2014 -->
-								</div>
+								<a href="graphics/rosetta.php">
+									<img src="http://i.imgur.com/t407kb2.png"/>
+									<div class="img-bar-caption">
+										<p>Rosetta Image Scale (10.2014)</p> 
+										<!-- October 2014 -->
+									</div>
+								</a>
 							</div>
 							
 							<div class="img-bar">
-								<img src="img/bluegirlcrop.jpg"/>
-								<div class="img-bar-caption">
-									<p>Digital Drawing (4.2014)</p> 
-								</div>
+								<a href="graphics/drawing.php">
+									<img src="img/bluegirlcrop.jpg"/>
+									<div class="img-bar-caption">
+										<p>Digital Drawing (4.2014)</p> 
+									</div>
+								</a>
 							</div>
 	
 							<div class="img-bar">
-								<img src="img/home-contestflyer.jpg"/>
-								<div class="img-bar-caption">
-									<p>Xbox Music Flyer (3.2014)</p> 
-								</div>
+								<a href="graphics/xboxflyer.php">
+									<img src="img/home-contestflyer.jpg"/>
+									<div class="img-bar-caption">
+										<p>Xbox Music Flyer (3.2014)</p> 
+									</div>
+								</a>
 							</div>	
 							
 						</section>
@@ -247,10 +257,12 @@
 							
 							
 							<div class="img-bar">
+								<a href="games/pong.php">
 								<img src="img/games/pong2.jpg"/>
 								<div class="img-bar-caption">
 									<p>Pong (9.2012)</p> 
 								</div>
+								</a>
 							</div>
 						</section>	
 						
