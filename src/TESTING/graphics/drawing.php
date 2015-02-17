@@ -46,7 +46,7 @@
 						<h1>Digital Drawing (4.2014)</h1>
 						
 						<p>
-						I enjoyed the art style found in many Japanese comics and animation, called manga and anime respectively, and I wanted to practice drawing a character in that way. This drawing took approximately 9 hours to complete.
+						I enjoyed the art style found in many Japanese comics and animation, called manga and anime respectively, and I wanted to practice drawing a character in that way. This drawing took approximately 9 hours to complete. Below are my final drawing and some of the intermediate drawings during the process.
 						</p>
 						
 						
@@ -56,6 +56,19 @@
 						
 						<div id="truck-pics">
 							<img src="img/bluegirl.jpg"/>
+							<p>The final result</p>
+							<br>
+							<hr>
+							<br>
+						
+							<img src="img/bluegirl/1.jpg"/>
+							<img src="img/bluegirl/2.jpg"/>
+							<img src="img/bluegirl/3.jpg"/>
+							<img src="img/bluegirl/5.jpg"/>
+							<img src="img/bluegirl/4.jpg"/>
+							<img src="img/bluegirl/7.jpg"/>
+							<img src="img/bluegirl/6.jpg"/>
+							
 
 						</div>
 						

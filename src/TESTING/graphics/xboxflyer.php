@@ -43,7 +43,7 @@
 					
 					
 					
-						<h1>Xbox Music Flyer (10.2014)</h1>
+						<h1>Xbox Music Flyer (3.2014)</h1>
 						
 						<p>
 						Shot using the Canon T2i. Edited using Adobe Photoshop.
