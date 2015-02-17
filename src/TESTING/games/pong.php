@@ -46,7 +46,12 @@
 						<h1>Pong (9.2012)</h1>
 						
 						<p>
-						Shot using the Canon T2i. Edited using Adobe Photoshop.
+						One of my first games. Developed for a game development class at New Jersey Institute of Technology. Features a 1-player mode against a computer, and a local 2-player against a friend. The game can be very buggy, and may not load here depending on your Java settings.
+						</p>
+						
+						
+						<p>
+						Created using Java and Notepad.
 						</p>
 						
 						<div id="truck-pics">
