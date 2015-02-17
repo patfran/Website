@@ -46,7 +46,14 @@
 						<h1>War Driving Project (12.2014)</h1>
 						
 						<p>
-						Our group researched and demonstrated war driving techniques for our "Wireless Networks" course. After familiarizing ourselves with general cyber attack approaches, we drove around the Newark area to see if we can scan for vulnerable networks (without the actual attacking part, of course).
+						Our group researched and demonstrated war driving techniques for our "Wireless Networks" course. War driving is an approach that a person may take to find gaps in the security of a network (like in an office building, or a neighbor's Wi-Fi, for example. With the data gathered from war driving, they may examine the data to find weak networks to infiltrate.</p>
+						
+						<p>
+						However, war driving in itself is not illegal since the person or people are not necessarily gaining unauthorized access to a network, but rather just scanning the networks' signals that are freely floating in the air. Much of this data is gathered and uploaded to websites, such as <a href="wigle.net">wigle.net</a>.
+						</p>
+
+						<p>
+						After familiarizing ourselves with general cyber attack approaches, we drove around the Newark area to see if we can scan for vulnerable networks. Then, as a small side project, we set up one of our spare wireless routers to see just how easy it is to connect to a weak network.
 						</p>
 
 						<p>
@@ -54,7 +61,7 @@
 						</p>
 						
 						<p>
-						Video was edited using Adobe Premiere.
+						Video was shot with a Canon T2i, and edited using Adobe Premiere.
 						</p>
 						
 						<div class="embed-responsive embed-responsive-4by3">

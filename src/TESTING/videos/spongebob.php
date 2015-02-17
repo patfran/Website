@@ -46,7 +46,7 @@
 						<h1>Spongebob Sings Katy Perry's Roar (12.2013)</h1>
 						
 						<p>
-						A small and fun side project after an idea popped up in my head while listening to "Roar" on the radio. Spent about 3 days to find the "right" video clips and sync the lips to the song. </p>
+						A fun side project after listening to "Roar" on the radio. An idea of Spongebob dancing and singing to Katy Perry popped up in my head, and I spent the next several days trying to find the "right" video clips and sync the lips to the song. </p>
 						
 						<p>Edited using Adobe Premiere.
 						</p>

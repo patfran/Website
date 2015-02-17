@@ -46,7 +46,7 @@
 						<h1>Foggy Night (10.2012)</h1>
 						
 						<p>
-						Fog rolled into my town one night which doesn't happen often. It was the perfect opportunity for me to search for something "rare" to photograph. I came across this certain angle of a street light that looked awesome and took TONS of photos. I ended up choosing one the looked the best. Below are both the before and after editing of the photo. 
+						Fog rolled into my town one night which doesn't happen often. It was the perfect opportunity for me to search for something "rare" to photograph. I came across this certain angle of a street light through a tree that looked stunning and took TONS of photos. I ended up choosing one photo the looked the best. Below are both the before and after editing of the photo as well as some additional details.
 						</p>
 						
 						<p>

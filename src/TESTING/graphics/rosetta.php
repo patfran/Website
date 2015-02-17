@@ -46,13 +46,37 @@
 						<h1>Rosetta Image Scale (10.2014)</h1>
 						
 						<p>
-						Shot using the Canon T2i. Edited using Adobe Photoshop.
+						The European Space Agency's (ESA) Rosetta took a photo of Comet 67P about 9.8 km away in October 2014. However, it's difficult to put the image into perspective without a frame of reference that we can understand. So, using Google Maps and a scale of where 1 pixel = 98 cm, I put together a variety of appropriately scaled images to help us. More information about the photo can be found on the ESA's blog <a href="http://blogs.esa.int/rosetta/2014/10/20/cometwatch-18-october/">here</a>.
+						</p>
+						
+						<p>
+						I used the following references:
+						<ul>
+						<li>Lower Manhattan </li>
+						<li>One World Trade Center </li>
+						<li>Eiffel Tower</li>
+						<li>A full neighborhood block</li>
+						<li>A high school</li>
+						<li>A football and baseball field</li>
+						<li>A full-sized airplane </li>
+						</ul>
+						</p>
+						
+						<p>
+						Edited using Adobe Photoshop.
 						</p>
 						
 						<div id="truck-pics">
 							<img src="http://i.imgur.com/t407kb2.png"/>
-
+							
+							<hr>
+							<br>
+							<br>
+							<p>Below is a bonus scaled image of another Rosetta image taken in January 2015. Used Google Maps and a scale of 1 pixel = 15 cm. More information about this photo can be found <a href="http://www.esa.int/spaceinimages/Images/2015/01/Comet_from_8_km">here</a>.
+							<img src="http://i.imgur.com/4UwMdub.jpg"/>
 						</div>
+						
+						
 						
 						
 						

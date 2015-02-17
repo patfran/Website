@@ -45,10 +45,16 @@
 					
 						<h1>Windows Phone Promo Video (3.2013)</h1>
 						
-						<p> My submission for the Windows Phone promotional video contest during my Windows UCrew internship. I won 1st place!
+						<p> 
+						My submission for a Windows Phone promotional video contest during my Windows UCrew internship. The contest was between all of the nearly 700 Windows UCrew representatives across the country. I won 1st place!
 						</p>
 						
-						<p>Shot using a Canon T2i, and edited using Adobe Premiere.
+						<p>
+						I searched around for promotional videos, and I found that a lot of them had very bright and cheery music. They edited in all of the positive reactions, including tons of smiles and laughter. I wanted to leave the viewer with good vibes about the Windows Phone and some knowledge of it's functionality so I focused on the phone's speed while a happy tune plays in the background.
+						</p>
+						
+						<p>
+						Shot using a Canon T2i, and edited using Adobe Premiere.
 						</p>
 						
 						<div class="embed-responsive embed-responsive-4by3">

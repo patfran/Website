@@ -43,10 +43,15 @@
 					
 					
 					
-						<h1>Digital Drawing (10.2014)</h1>
+						<h1>Digital Drawing (4.2014)</h1>
 						
 						<p>
-						Shot using the Canon T2i. Edited using Adobe Photoshop.
+						I enjoyed the art style found in many Japanese comics and animation, called manga and anime respectively, and I wanted to practice drawing a character in that way. This drawing took approximately 9 hours to complete.
+						</p>
+						
+						
+						<p>
+						Designed using Autodesk Sketchbook Express (free version) on the Microsoft Surface Pro 1.
 						</p>
 						
 						<div id="truck-pics">

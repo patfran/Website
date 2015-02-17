@@ -240,10 +240,12 @@
 						<!--===== GAMES =====-->
 						<section id="games">
 							<div class="img-bar">
+								<a href="games/escape.php">
 								<img src="img/games/escape2.jpg"/>
 								<div class="img-bar-caption">
 									<p>Escape (Oculus Rift VR) (2.2014)</p> 
 								</div>
+								</a>
 							</div>
 							
 							<!--

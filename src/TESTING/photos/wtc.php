@@ -46,7 +46,11 @@
 						<h1>One World Trade Center (7.2012)</h1>
 						
 						<p>
+						A high dynamic range (HDR) photo of the unfinished One World Trade Center dominating the New York City skyline. I took dozens of three-photo sets, each with different levels of exposure, or "brightness". I later chose what I felt was the best set, and I then layered each photo on top of one another in Photoshop. 
+						</p>
 						
+						<p>
+						I adjusted the alignment and opacity of each photo to ensure that everything was lined up perfectly and to get as much detail out of the photo out as I can. I also played around with the saturation and contrast levels.
 						</p>
 						
 						<p>

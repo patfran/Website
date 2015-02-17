@@ -43,12 +43,19 @@
 					
 					
 					
-						<h1>1fort (3.2013)</h1>
+						<h1>1fort (7.2013)</h1>
 						
-						<p> A side project to try out Valve's Source Filmmaker shortly after being released. I tried to go for a more cinematic approach. The title "1fort" refers to the Team Fortress 2 location of the film, "2Fort", and to the implied domination of the "Red" team over the "Blu" team. Took approximately about a week of work.
+						<p> A side project to try out Valve's Source Filmmaker shortly after its release on June 2013. A lot of people at the time were aiming for silly videos (which were fantastic, by the way!). However, I wanted to try for a more cinematic approach to practice camera angles and lighting.</p> 
+						
+						<p>
+						This film features characters from a game called Team Fortress 2. The title "1fort" refers to this short film's location, "2Fort", a popular map that players play on frequently. In Team Fortress 2, there are two opposing teams: team "Red" and team "Blu". In this video I aimed to tell a story of how team "Blu" were dominated by team "Red" through a variety of ways.</p>
+						
+						<p>
+						This took approximately about a week of work to place and animate the characters, as well as directing the camera and lights.
 						</p>
 						
-						<p>Edited using Source Filmmaker.
+						<p>
+						Edited using Source Filmmaker.
 						</p>
 						
 						<div class="embed-responsive embed-responsive-4by3">

@@ -46,11 +46,19 @@
 						<h1>Campus Event Flyer (11.2014)</h1>
 						
 						<p>
-						
+						College students are busy. Sometimes we don't have time to completely stop and examine a poster on a wall. With that in mind, I developed this flyer with the intention of bringing "new" information to the student each time he or she passes the flyer while walking to class.
 						</p>
 						
 						<p>
-						Shot using the Canon T2i. Edited using Adobe Photoshop.
+						I wanted the flyer to look similar to a movie poster. I searched for the most eye-catching photo of the hypnotist, and his photo of the burning wallet was perfect. That easily grabbed the attention of those passing by. If they were completely drawn to the poster, his or her gaze would be drawn down to his name, and to the tag line. And finally, the important details of the event are placed inside a box at the bottom of the flyer, with some additional NJIT Student Activities Council references below for future events.
+						</p>
+						
+						<p>
+						The room that night was packed to the brim! The event turned out to be a total success!
+						</p>
+						
+						<p>
+						Edited using Adobe Photoshop.
 						</p>
 						
 						<div id="truck-pics">

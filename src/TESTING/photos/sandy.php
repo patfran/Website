@@ -46,7 +46,7 @@
 						<h1>Superstorm Sandy (6.2014)</h1>
 						
 						<p>
-						After Superstorm Sandy landed on October 29, 2013, gas suddenly became a scarce resource. Cars were lined up across town, and people waited several hours just to buy a gallon of gas. This went on for nearly 3 days. I decided to document the event.
+						After Superstorm Sandy landed in the New Jersey area on October 29, 2013, gas suddenly became a scarce resource. Cars were lined up across town, and people waited several hours just to buy a gallon of gas. This went on for nearly 3 days. I decided to document the entire event.
 						</p>
 						
 						<p>

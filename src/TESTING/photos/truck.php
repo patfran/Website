@@ -46,7 +46,11 @@
 						<h1>Truck Composition (6.2014)</h1>
 						
 						<p>
-						My friend loves his truck. With the help of some friends, we spent a few hours composing his truck to be just right. I then took the best photo set and layered them on top of one another, erasing some portions of each layer to ensure that only what was lit by the flash was shown. Below are each of the 7 photos used for the final product.
+						My friend loves his truck. With the help of some friends, we spent a few hours composing his truck to properly reflect how awesome it was. This included positioning the truck (and the tires!) on a rocky hill, and positioning the external camera flashes around the truck.
+						</p>
+						
+						<p>
+						Afterwards, I took the best photo set and layered them on top of one another, erasing some portions of each layer to ensure that only the lit parts were shown. Below are the final result, and the photo set that I've used to create it.
 						</p>
 						
 						<p>

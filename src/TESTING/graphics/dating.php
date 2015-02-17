@@ -43,12 +43,14 @@
 					
 					
 					
-						<h1>Dating App Prototype (12.2014)</h1>
+						<h1>Dating App Prototype and Final Report (12.2014)</h1>
 						
 						
 						<p>
-						Designed a dating application in a team of 5 for IS 247, "Designing the User Experience".<br>
-						Our Axure prototype can be found <a href="http://1by4bg.axshare.com/#p=internet_1&hi=1">here</a>.
+						For our IS 247 course, "Designing the User Experience", we focused on developing an mobile application that allows users to find potential dating matches similar to Tinder or OkCupid. After weeks of reiteration, storyboarding, and persona-refinement, we decided to go with a system that pairs users up based on their internet browsing habits.</p>
+						
+						<p>
+						Below is our final UX report. Our Axure prototype can be found <a href="http://1by4bg.axshare.com/#p=internet_1&hi=1">here</a>.
 						</p>
 						
 						<!--<div class="embed-responsive embed-responsive-4by3">-->
