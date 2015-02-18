@@ -72,7 +72,7 @@
 							<hr>
 							<br>
 							<br>
-							<p>Below is a bonus scaled image of another Rosetta image taken in January 2015. Used Google Maps and a scale of 1 pixel = 15 cm. More information about this photo can be found <a href="http://www.esa.int/spaceinimages/Images/2015/01/Comet_from_8_km">here</a>.
+							<p>Bonus image of another scaled Rosetta image taken in January 2015. Used Google Maps and a scale of 1 pixel = 15 cm. I used the Statue of Liberty and a full-sized airplane. More information about this photo can be found <a href="http://www.esa.int/spaceinimages/Images/2015/01/Comet_from_8_km">here</a>.
 							<img src="http://i.imgur.com/4UwMdub.jpg"/>
 						</div>
 						

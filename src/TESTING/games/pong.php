@@ -46,7 +46,7 @@
 						<h1>Pong (9.2012)</h1>
 						
 						<p>
-						One of my first games. Developed for a game development class at New Jersey Institute of Technology. Features a 1-player mode against a computer, and a local 2-player against a friend. The game can be very buggy, and may not load here depending on your Java settings.
+						One of my first games. Developed for a game development class at New Jersey Institute of Technology. Features a 1-player mode against a computer, and a local 2-player mode against a friend. The game can be very buggy, and may run into loading problems depending on your Java security settings.
 						</p>
 						
 						

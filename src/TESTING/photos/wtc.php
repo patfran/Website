@@ -50,11 +50,11 @@
 						</p>
 						
 						<p>
-						I adjusted the alignment and opacity of each photo to ensure that everything was lined up perfectly and to get as much detail out of the photo out as I can. I also played around with the saturation and contrast levels.
+						I adjusted the alignment and opacity of each photo to ensure that everything was lined up perfectly to squeeze out as much detail as I can. I also played around with the saturation and contrast levels.
 						</p>
 						
 						<p>
-						Shot using the Canon T2i. Edited using Adobe Photoshop.
+						Shot using a Canon T2i. Edited using Adobe Photoshop.
 						</p>
 						
 						<div id="truck-pics">

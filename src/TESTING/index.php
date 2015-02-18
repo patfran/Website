@@ -193,7 +193,7 @@
 								<a href="graphics/dating.php">
 									<img src="img/datingapp.jpg"/>
 									<div class="img-bar-caption">
-										<p>Dating App Prototype (12.2014)</p>  
+										<p>Dating App Prototype and Final Report (12.2014)</p>  
 									</div>
 								</a>
 							</div>

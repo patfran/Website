@@ -51,12 +51,12 @@
 						
 						
 						<p>
-						Designed using Autodesk Sketchbook Express (free version) on the Microsoft Surface Pro 1.
+						Designed using Autodesk Sketchbook Express on the Microsoft Surface Pro.
 						</p>
 						
 						<div id="truck-pics">
 							<img src="img/bluegirl.jpg"/>
-							<p>The final result</p>
+							<p>The final result.</p>
 							<br>
 							<hr>
 							<br>

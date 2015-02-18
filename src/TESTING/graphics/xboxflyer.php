@@ -46,11 +46,11 @@
 						<h1>Xbox Music Flyer (3.2014)</h1>
 						
 						<p>
-						My submission for the Xbox Music Flyer Contest during my internship with Windows UCrew. The contest was between all of the nearly 700 Windows UCrew representatives across the country. I was one of the top 5 winners!
+						My submission for the Xbox Music Flyer Contest during my internship with Windows UCrew. The contest was between many of the nearly 700 Windows UCrew representatives from across the country. I was one of the top 5 winners!
 						</p>
 						
 						<p>
-						The flyers produced in this contest were intended to be used the UCrew members for their own campuses. Knowing that this was aimed towards college students, this photo had the perfect components: a popular electronic dance music artist, the centered heart symbol, and vibrant colors all over. The connection between heart symbol and the words Xbox Music help develop a positive association towards the brand.
+						The flyers produced in this contest were intended to be used the UCrew members for their own campuses. Knowing that this was aimed towards college students, this photo had the perfect components: a popular electronic dance music artist, a centered heart symbol, and vibrant colors. The colors helped catch a person's attention, and I felt that the connection between heart symbol and the words Xbox Music aided in developing a positive association towards the brand.
 						</p>
 						
 						<p>

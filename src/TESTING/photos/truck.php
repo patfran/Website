@@ -46,7 +46,7 @@
 						<h1>Truck Composition (6.2014)</h1>
 						
 						<p>
-						My friend loves his truck. With the help of some friends, we spent a few hours composing his truck to properly reflect how awesome it was. This included positioning the truck (and the tires!) on a rocky hill, and positioning the external camera flashes around the truck.
+						My friend loves his truck. With the help of some friends, we spent a few hours composing his truck. This included positioning the truck (and its tires!) on a rocky hill, and positioning the external camera flash around the truck for each photo.
 						</p>
 						
 						<p>
@@ -60,7 +60,7 @@
 						<div id="truck-pics">
 							<img src="img/truck/final.jpg"/>
 							<br>
-							<p> The final product. </p>
+							<p> The final composition. </p>
 							<hr>
 							<br>
 							<br>

@@ -43,14 +43,14 @@
 					
 					
 					
-						<h1>Superstorm Sandy (6.2014)</h1>
+						<h1>Superstorm Sandy (11.2012)</h1>
 						
 						<p>
-						After Superstorm Sandy landed in the New Jersey area on October 29, 2013, gas suddenly became a scarce resource. Cars were lined up across town, and people waited several hours just to buy a gallon of gas. This went on for nearly 3 days. I decided to document the entire event.
+						After Superstorm Sandy landed in the New Jersey area on October 29, 2013, gas suddenly became a scarce resource. Cars were lined up across town, and people waited several hours just to buy a gallon of gas. This chaos lasted for nearly 3 days. I decided to document the entire event.
 						</p>
 						
 						<p>
-						Photos and videos using the Canon T2i. Edited using Adobe Photoshop and Adobe Premiere.
+						Photos and videos taken with a Canon T2i. Edited using Adobe Photoshop and Adobe Premiere.
 						</p>
 						
 						<div id="truck-pics">
@@ -64,7 +64,7 @@
 						
 						<br>
 						<br>
-						<p>Bonus footage of the aftermath, and of the gas lines on the Garden State Parkway.</p>
+						<p>Bonus footage of the aftermath and the long gas lines on the Garden State Parkway.</p>
 						<div class="embed-responsive embed-responsive-4by3">
 						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3LbjtX73dSE" allowfullscreen></iframe>
 						</div>	

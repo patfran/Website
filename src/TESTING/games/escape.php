@@ -46,14 +46,17 @@
 						<h1>Escape (Oculus Rift VR) (2.2015)</h1>
 						
 						<p>
-						I am super excited about the potential of virtual reality (VR) for the future of society. I utilized Unity3D to help teach myself on VR development.
+						I am super excited about the potential of virtual reality (VR) for the future of society! I utilized Unity3D to help teach myself on VR development for the Oculus Rift Development Kit 2.
 						</p>
 						
 						<p>
-						I feel most comfortable in sitting VR experiences where you don't move. Here, the player is sitting on a chair stuck inside a room, and the player must find a way to open the door. Having things follow the player's head movements can be disorientating so I spent a month on developing a "world cursor" that is separate from the player's camera. This cursor feels natural as he or she interacts with the environment (it took a looong month of research to get it working properly).
+						I feel most comfortable in sitting VR experiences where you don't move. Here, the player is stuck inside a room sitting on a chair, and he or she must find a way to open the door.</p>
+						
+						<p>
+						Having things follow the player's head movements can be disorientating. I spent a lot of time on developing a "world cursor" that is separate from the player's camera and that can also be used to interact with the environment.
 						</p>
 						
-						<p>The demo is very short, and very unoptimized. You can download the Escape demo below!
+						<p>The demo is very short, and very unoptimized. However, you can download the Escape demo below to try for yourself!
 						</p>
 						
 						<p>
@@ -62,7 +65,7 @@
 						
 						<div id="truck-pics">
 						<br>
-							<a download="escape/escape_v1.0.zip"><strong>--> Download Escape_v1.0 (requires Oculus Rift) <-- </strong></a>
+							<a href="escape/escape_v1.0.zip" download><strong> --> Download Escape_v1.0 (Oculus Rift DK2 recommended) <-- </strong></a>
 							<br>
 							
 							<img src="escape/escape.jpg"></img>

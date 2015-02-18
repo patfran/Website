@@ -50,7 +50,7 @@
 						</p>
 						
 						<p>
-						I wanted the flyer to look similar to a movie poster. I searched for the most eye-catching photo of the hypnotist, and his photo of the burning wallet was perfect. That easily grabbed the attention of those passing by. If they were completely drawn to the poster, his or her gaze would be drawn down to his name, and to the tag line. And finally, the important details of the event are placed inside a box at the bottom of the flyer, with some additional NJIT Student Activities Council references below for future events.
+						I wanted the flyer to look similar to a movie poster. Brian Imbus' photo of the burning wallet was very eye-catching. That easily grabbed the attention of those passing by the flyer. If they were completely drawn to the poster, his or her gaze would be drawn down to his name, and to the tag line. And finally, the important details of the event are placed inside a box at the bottom of the flyer, with some additional NJIT Student Activities Council references below for future events.
 						</p>
 						
 						<p>
