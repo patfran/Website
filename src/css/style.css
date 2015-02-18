@@ -1,86 +1,107 @@
-* {
-	font-family: 'Open Sans', sans-serif;
+@font-face {
+	font-family: 'Koushiki';
+	src: url('../fonts/KoushikiSans-Light.ttf');
 }
+
+* {
+	font-family: 'Koushiki', sans-serif;
+}
+
+/*sets the minimum that everything can shrink down to when resizing*/
+body{
+	min-width: 600px;
+	width: auto !important;
+	width: 600px; /*for IE browsers*/
+}
+
 
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
 =====================================*/
-#side-nav { /* navbar base look*/
-	background-color: #2a2c2b; /*base color of nav box*/
+#side-nav  .nav { /* navbar base look*/
+	width: 175px;
+	height: 100%;
 	z-index: 999;
 	
+	background-color: #fff; /*base color of nav box*/
 	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
 	padding-top: 40px;
-	
-	width: 175px;
-	
 	transition: all 0.3s ease 0s;
-	
-	opacity: 0.8;
 }
 
-#side-nav:focus{ /*navbar hover dropping effect*/
-	/*padding-top: 40px;*/
-	opacity: 1;
-}
-
-#side-nav:hover{ /*navbar hover dropping effect*/
-	/*padding-top: 40px;*/
-	opacity: 1;
-}
-
-
-
-#side-nav > li > a { /* navbar base links */
-	color: #fff; /*link text color*/
+#side-nav .nav > li > a { /* navbar base links */
+	color: #000; /*link text color*/
 	border-radius: 0px;
 	transition: all 0.3s ease 0s; /*link hover effect*/
 }
 
-#side-nav > li > a:focus{ /*colors chosen link*/
-	background-color: #fff; 
-	color: #2a2c2b;
+#side-nav .nav > li > a:hover{ /*colors link hover*/
+	background-color: #aaa; /*hover color*/
+	color: #000; /*text color when hovering*/
 }
 
-#side-nav > li > a:hover{ /*colors link hover*/
-	background-color: #fff;
-	color: #2a2c2b;
-}
-
-/*
-#side-nav > #project-dropdown:hover{
-	display:block;
-	color: blue;
-}*/
-
-
-#project-dropdown{
-	left: 0px;
-	width: 175px;
-	top: 95%;
-	
-	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
-	border-style: none;
-	border-radius: 0px;
-	background-color: #2a2c2b;
-	transition: all 0.3s ease 0s;
-}
-
-
-#project-dropdown > li > a{ /*link hover effect*/
-	color: #fff;
-	transition: all 0.3s ease 0s;
-}
-
-#project-dropdown > li > a:hover{ /*link hover effect*/
+#side-nav .nav > li.active > a { /*link colors when scrolling*/
+	background-color: #aaa;
 	color: #000;
-	transition: all 0.3s ease 0s;
 }
 
-#project-icon{
-	top: 3px;
-	right: -2px;
+
+/*====================================
+===== SECTION IMAGES + CAPTIONS ======
+=====================================*/
+.content {
+	color: #000;
+	padding-top: 40px;
 }
+
+.content section {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+	background-color: #000;
+	color: #fff;
+}
+
+#patrick {
+	background-color: #fff;
+	color: #000;
+	height: 200px;
+}
+
+.img-bar {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.img-bar img{
+	opacity: 0.5;
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	
+	-webkit-transition: opacity 0.3s ease 0s;
+	transition: opacity 0.3s ease 0s;
+}
+
+.img-bar img:hover{
+	opacity: 1.0;
+}
+
+.img-bar-caption {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	color: #fff;
+}
+
+
 
 /*====================================
 ======= MAIN CONTENT STUFF ===========
@@ -106,68 +127,8 @@ p{
 	height: 846px;
 }
 
-
-/* ----------------------------
----- carousel on main page ---- 
-------------------------------- */
-.carousel-inner > .item  {
-	max-height: 422px;
-	min-width: 520px;
-	width: auto;
-	margin: auto;
-}
-
-#home-carousel{
-	background-color: #10222b;
-	transition: all 0.3s ease 0s;
-}
-
-#home-carousel:hover{
-	background-color: #10222b;
-	opacity: 0.95;
-}
-
-#carousel-buttons{
-	left: 50%;
-	top: 100%;
-}
-
-#carousel-buttons li{
-	background-color: #fff;
-	border-radius: 0px;
-	border-color: #000;
-}
-
-#carousel-buttons .active{
-	background-color: #000;
-	border-radius: 0px;
-}
-
-.carousel-control{
-	opacity: 0.55;
-	transition: all 0.3s ease 0s;
-}
-
-.carousel-control:focus{
-	opacity: 0.55;
-	transition: all 0.3s ease 0s;
-}
-
-.carousel-control:hover{
-	opacity: 1;
-}
-
-.carousel-caption {
-	top: 75%;
-	left: 0%;
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 10%;
-	width: 66%;
-	
-}
-
-.carousel-caption > h3{
-	margin-top: -10px;
+#truck-pics img{
+	width: 750px;
 }
 
 /* -------------------------

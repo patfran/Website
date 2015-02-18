@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco</title>
+		<title>Patrick Francisco - Portfolio</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -14,7 +14,7 @@
 		<!-- CORE BOOTSTRAP CSS -->
 		<link rel="stylesheet" href="../css/bootstrap.css">
 		<link rel="stylesheet" href="../css/normalize.css">
-		<link rel="stylesheet" href="../css/style2.css">
+		<link rel="stylesheet" href="../css/style.css">
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 		
 		<!-- 
@@ -33,16 +33,35 @@
 			<div class="row">
 			
 				<!-- SIDEBAR -->
-					<?php include("../index2_nav.php");?>
+				<?php include("../nav_pages.php");?>
 				<!-- /END SIDEBAR -->
 
 				<!-- CONTENT -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
 					
+					
+					
+					
+						<h1>War Driving Project (12.2014)</h1>
+						
+						<p>
+						Our group researched and demonstrated war driving techniques for our "Wireless Networks" course. War driving is an approach that a person may take to find gaps in a network's security (such as Wi-Fi in an office building or a neighbor's house). With the data gathered from war driving, attackers may examine the data to find weak networks to infiltrate at a later date.</p>
+						
+						<p>
+						However, war driving in itself is not illegal since the person or people are not necessarily gaining unauthorized access to a network, but rather they are just scanning signals that are freely floating in the air. Much of this data is often gathered and uploaded to websites, such as <a href="wigle.net">wigle.net</a>.
+						</p>
 
 						<p>
-						Researched and demonstrated wardriving techniques in a team of 4 for IT 220, "Wireless Networks".
+						After familiarizing ourselves with general cyber attack approaches, we drove around to see how vulnerable the Newark area is for network attacks. Then, as a small side project, we set up one of our spare wireless routers to see just how easy it is to connect to a weak network. We compiled everything and presented all of our findings to the class.
+						</p>
+
+						<p>
+						Below are our video and slides that we used for our class presentation.
+						</p>
+						
+						<p>
+						The video was shot with a Canon T2i, and edited using Adobe Premiere.
 						</p>
 						
 						<div class="embed-responsive embed-responsive-4by3">
@@ -74,11 +93,13 @@
 		<script src="../js/jquery.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
 		
+		<!-- tracks active scroll thing -->
 		<script>
 			$('body').scrollspy({
 				target: '#side-nav'
 			})
 		</script>
+		
 		<!-- scrolling animation -->
 		<script>
 			$('a[href*=#]:not([href=#])').click(function() {
