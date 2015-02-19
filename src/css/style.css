@@ -7,8 +7,8 @@
 	font-family: 'Koushiki', sans-serif;
 }
 
-/*sets the minimum that everything can shrink down to when resizing*/
-body{
+
+body{ /*sets the minimum that everything can shrink down to when resizing*/
 	min-width: 600px;
 	width: auto !important;
 	width: 600px; /*for IE browsers*/
@@ -76,7 +76,7 @@ body{
 }
 
 .img-bar img{
-	opacity: 0.5;
+	opacity: 1.0;
 	position: absolute;
 	width: 100%;
 	left: 50%;
@@ -91,10 +91,15 @@ body{
 }
 
 .img-bar img:hover{
-	opacity: 1.0;
+	opacity: 0.4;
 }
 
-.img-bar-caption {
+.img-bar-caption{
+	background-color: #000;
+	opacity: 1;
+}
+
+.img-bar-caption p{
 	position: absolute;
 	bottom: 0;
 	left: 10px;
@@ -106,6 +111,7 @@ body{
 /*====================================
 ======= MAIN CONTENT STUFF ===========
 =====================================*/
+
 
 /* 
 using http://www.pearsonified.com/typography/ for font ratio for 750 width. Title: 45px, Headline: 28px, Sub: 22px, Text: 17px, Subtext: 13px;

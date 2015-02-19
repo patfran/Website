@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco - Portfolio</title>
+		<title>Patrick Francisco - Home</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
 		<!-- 
@@ -33,11 +34,11 @@
 			<div class="row">
 			
 				<!-- SIDEBAR -->
-				<?php include("nav_index.php");?>
+				<?php include("php/nav_index.php");?>
 				<!-- /END SIDEBAR -->
 
 				<!-- CONTENT -->
-				<div id="content-wrap" class="col-md-8">
+				<div id="content-wrap" class="col-md-8"> <!--original col-md-8-->
 					<div class="content">
 						<!-- the meat of the content goes here -->
 						
@@ -54,7 +55,7 @@
 	
 						<!--===== VIDEOS =====-->
 						<section id="videos">
-						
+							<!--
 							<div class="img-bar">
 								<a href="videos/wardriving.php">
 									<img src="img/wardriving.jpg"/>
@@ -62,8 +63,9 @@
 										<p>War Driving Project (12.2014)</p> 
 									</div>
 								</a>
-							</div>	
-							
+							</div>
+							-->
+
 							<!--
 							<div class="img-bar">
 								<a href="videos/forana.php">
@@ -72,7 +74,8 @@
 										<p>To Kill for an A (12.2013)</p> 
 									</div>
 								</a>
-							</div>	-->
+							</div>
+							-->
 							
 							<div class="img-bar">
 								<a href="videos/spongebob.php">
@@ -92,6 +95,7 @@
 								</a>
 							</div>	
 							
+							<!--
 							<div class="img-bar">
 								<a href="videos/1fort.php">
 								<img src="img/1fort.jpg"/>
@@ -100,6 +104,7 @@
 								</div>
 								</a>
 							</div>	
+							-->
 							
 							<!-- Maybe add in UCrew unboxing compilation video!
 							<div class="img-bar">
@@ -113,6 +118,7 @@
 						
 						<!--===== PHOTOS =====-->
 						<section id="photos">
+						
 							<div class="img-bar">
 								<a href="photos/truck.php">
 									<img src="img/photos/truck.jpg"/>
@@ -137,8 +143,10 @@
 								<div class="img-bar-caption">
 									<p>Classic Car Show (9.2012)</p> 
 								</div>
-							</div>-->
+							</div>
+							-->
 							
+							<!--
 							<div class="img-bar">
 								<a href="photos/sandy.php">
 									<img src="img/photos/sandy.jpg"/>
@@ -147,6 +155,7 @@
 									</div>
 								</a>
 							</div>
+							-->
 							
 							<div class="img-bar">
 								<a href="photos/fog.php">
@@ -157,6 +166,7 @@
 								</a>
 							</div>
 							
+							<!--
 							<div class="img-bar">
 								<a href="photos/wtc.php">
 									<img src="img/photos/wtc.jpg"/>
@@ -165,13 +175,46 @@
 									</div>
 								</a>
 							</div>
+							-->
 							
-						</section>					
+						</section>
 						
-						<!--===== DESIGNS =====-->
-						<section id="designs">
+						<!--===== GAMES =====-->
+						<section id="games">
+							<div class="img-bar">
+								<a href="games/escape.php">
+								<img src="img/games/escape2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Escape (Oculus Rift VR) (2.2015)</p> 
+								</div>
+								</a>
+							</div>
 							
 							<!--
+							<div class="img-bar">
+								<img src="img/games/sorryo.jpg"/>
+								<div class="img-bar-caption">
+									<p>Super Sorry-o Bros.! (11.2012)</p> 
+								</div>
+							</div>
+							-->
+							
+							<!--
+							<div class="img-bar">
+								<a href="games/pong.php">
+								<img src="img/games/pong2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Pong (9.2012)</p> 
+								</div>
+								</a>
+							</div>
+							-->
+						</section>	
+						
+						<!--===== GRAPHICS =====-->
+						<section id="graphics">
+							
+							<!-- CHANGE TO MORNING MOMENT
 							<div class="img-bar">
 								<img src="http://i.imgur.com/4UwMdub.jpg"/>
 								<div class="img-bar-caption">
@@ -180,7 +223,7 @@
 							</div>
 							-->
 							
-							<!--
+							<!-- CHANGE TO CCS WEBSITE
 							<div class="img-bar">
 								<img src="img/empireshot2.jpg"/>
 								<div class="img-bar-caption">
@@ -188,6 +231,16 @@
 								</div>
 							</div>
 							-->
+							
+							<!-- CHANGE TO GUI WEBSITE
+							<div class="img-bar">
+								<img src="img/empireshot2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							-->
+							
 							
 							<div class="img-bar">
 								<a href="graphics/dating.php">
@@ -237,93 +290,25 @@
 							
 						</section>
 						
-						<!--===== GAMES =====-->
-						<section id="games">
-							<div class="img-bar">
-								<a href="games/escape.php">
-								<img src="img/games/escape2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Escape (Oculus Rift VR) (2.2015)</p> 
-								</div>
-								</a>
-							</div>
-							
-							<!--
-							<div class="img-bar">
-								<img src="img/games/sorryo.jpg"/>
-								<div class="img-bar-caption">
-									<p>Super Sorry-o Bros.! (11.2012)</p> 
-								</div>
-							</div>
-							-->
-							
-							
-							<div class="img-bar">
-								<a href="games/pong.php">
-								<img src="img/games/pong2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Pong (9.2012)</p> 
-								</div>
-								</a>
-							</div>
-						</section>	
+						<section id="websites">
 						
+						
+						<section id="graphics">
 						
 
 					</div>
+					
 					<hr>
-					<address>
-						<h6>
-							<small> <a href="mailto:ppf3@njit.edu"><span class="glyphicon glyphicon-envelope"></span>	Patrick Francisco 2015 </a></small>
-						</h6>
-					</address>
+					<?php include("php/footer.php");?>
+					
 				</div>
 				<!-- /END CONTENT -->
 
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->
+		
+		<?php include("php/bottom_scripts.php");?>
 	
-		<!-- added the following two line for bootstrap -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		
-		<!-- tracks active scroll thing -->
-		<script>
-			$('body').scrollspy({
-				target: '#side-nav'
-			})
-		</script>
-		
-		<!-- scrolling animation -->
-		<script>
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-					|| location.hostname == this.hostname) {
-
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					   if (target.length) {
-						 $('html,body').animate({
-							 scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		</script>
-		
-		<!-- Google Analytic stuff -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-59716201-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-
     </body>
 </html>
