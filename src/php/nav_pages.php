@@ -6,9 +6,11 @@
 		<li role="presentation"><a href="../index.php#photos">PHOTOS</a></li>
 		<li role="presentation"><a href="../index.php#games">GAMES</a></li>
 		<li role="presentation"><a href="../index.php#graphics">GRAPHICS</a></li>
+		
+		<!--
 		<li role="presentation"><a href="../index.php#websites">WEBSITES</a></li>
 		<li role="presentation"><a href="../index.php#prototypes">PROTOTYPES</a></li>
-		
+		-->
 		<hr>
 		
 		<li role="presentation"><a href="https://www.linkedin.com/in/patfran" target="_blank">LINKEDIN <span class="fa fa-external-link"></span> </a></li>

@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco - Home</title>
+		<title>Patrick Francisco</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -18,44 +18,41 @@
 		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
-		<!-- 
-		Definitely not focused on optimization at the moment. 
-		Becoming comfortable with HTML, CSS, and etc. is my first and foremost objective.
-		-->
-		
     </head>
-    <body data-spy="scrollspy" data-target="#side-nav">
+    <body>
+	
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
+		
+		
+		
         <!-- CONTAINER -->
-		<div class="container">	
+		<div class="container">
 			<div class="row">
 			
-				<!-- SIDEBAR -->
+				<!-- SIDEBAR, 4 columns wide -->
 				<?php include("php/nav_index.php");?>
-				<!-- /END SIDEBAR -->
 
-				<!-- CONTENT -->
-				<div id="content-wrap" class="col-md-8"> <!--original col-md-8-->
+
+				<!-- CONTENT, 8 columns wide  -->
+				<div id="content-wrap" class="col-md-8">
 					<div class="content">
 						<!-- the meat of the content goes here -->
 						
-						<!--===== PATRICK =====-->
+
+						<!--===== PATRICK =====
 						<section id="patrick">
-						
 							<h1> 
-								<p><strong>Hi!</strong><p>
-								<br>
-								<p>My name is Patrick, and I enjoy creating digital things.</p>
+								<p>Hi! My name is Patrick, and I create digital things.</p>
 							</h1>	
-							
-						</section>
+						</section>-->
 	
 						<!--===== VIDEOS =====-->
-						<section id="videos">
-							<!--
+						<section id="works">
+						
+							<!-- wardriving
 							<div class="img-bar">
 								<a href="videos/wardriving.php">
 									<img src="img/wardriving.jpg"/>
@@ -66,7 +63,7 @@
 							</div>
 							-->
 
-							<!--
+							<!-- for an a
 							<div class="img-bar">
 								<a href="videos/forana.php">
 									<img src="img/forana.jpg"/>
@@ -77,12 +74,10 @@
 							</div>
 							-->
 							
-							<div class="img-bar">
+							<div class="workbar">
 								<a href="videos/spongebob.php">
 									<img src="img/spongebob.jpg"/>
-									<div class="img-bar-caption">
-										<p>Spongebob Sings Katy Perry's Roar (8.2013)</p> 
-									</div>
+									<p class="workbar-caption">Spongebob Sings Katy Perry's Roar</p> 
 								</a>
 							</div>	
 							
@@ -90,12 +85,12 @@
 								<a href="videos/phonepromo.php">
 									<img src="img/home-contestvideo2.jpg"/>
 									<div class="img-bar-caption">
-										<p>Windows Phone Promo Video (3.2013)</p> 
+										<p>Windows Phone Promotional Video</p> 
 									</div>
 								</a>
 							</div>	
 							
-							<!--
+							<!-- 1fort
 							<div class="img-bar">
 								<a href="videos/1fort.php">
 								<img src="img/1fort.jpg"/>
@@ -106,7 +101,7 @@
 							</div>	
 							-->
 							
-							<!-- Maybe add in UCrew unboxing compilation video!
+							<!-- new shoes
 							<div class="img-bar">
 								<img src="img/newshoes.jpg"/>
 								<div class="img-bar-caption">
@@ -114,21 +109,18 @@
 								</div>
 							</div>	
 							-->
-						</section>					
-						
-						<!--===== PHOTOS =====-->
-						<section id="photos">
+
 						
 							<div class="img-bar">
 								<a href="photos/truck.php">
 									<img src="img/photos/truck.jpg"/>
 									<div class="img-bar-caption">
-										<p>Truck Composition (6.2014)</p> 
+										<p>Truck Composition</p> 
 									</div>
 								</a>
 							</div>
 							
-							<!--
+							<!-- snow 
 							<div class="img-bar">
 								<img src="img/photos/snowcrop.jpg"/>
 								<div class="img-bar-caption">
@@ -137,7 +129,7 @@
 							</div>
 							-->
 							
-							<!--
+							<!-- classic car
 							<div class="img-bar">
 								<img src="img/photos/carcrop.jpg"/>
 								<div class="img-bar-caption">
@@ -146,7 +138,7 @@
 							</div>
 							-->
 							
-							<!--
+							<!-- sandy
 							<div class="img-bar">
 								<a href="photos/sandy.php">
 									<img src="img/photos/sandy.jpg"/>
@@ -161,12 +153,12 @@
 								<a href="photos/fog.php">
 									<img src="http://i.imgur.com/6rISH.jpg"/>
 									<div class="img-bar-caption">
-										<p>Foggy Night (10.2012)</p> 
+										<p>Foggy Night</p> 
 									</div>
 								</a>
 							</div>
 							
-							<!--
+							<!-- world trade center
 							<div class="img-bar">
 								<a href="photos/wtc.php">
 									<img src="img/photos/wtc.jpg"/>
@@ -177,10 +169,7 @@
 							</div>
 							-->
 							
-						</section>
-						
-						<!--===== GAMES =====-->
-						<section id="games">
+
 							<div class="img-bar">
 								<a href="games/escape.php">
 								<img src="img/games/escape2.jpg"/>
@@ -190,7 +179,7 @@
 								</a>
 							</div>
 							
-							<!--
+							<!-- sorry-o bros
 							<div class="img-bar">
 								<img src="img/games/sorryo.jpg"/>
 								<div class="img-bar-caption">
@@ -199,7 +188,7 @@
 							</div>
 							-->
 							
-							<!--
+							<!-- pong
 							<div class="img-bar">
 								<a href="games/pong.php">
 								<img src="img/games/pong2.jpg"/>
@@ -209,12 +198,9 @@
 								</a>
 							</div>
 							-->
-						</section>	
-						
-						<!--===== GRAPHICS =====-->
-						<section id="graphics">
+
 							
-							<!-- CHANGE TO MORNING MOMENT
+							<!-- rosetta #2, CHANGE TO MORNING MOMENT
 							<div class="img-bar">
 								<img src="http://i.imgur.com/4UwMdub.jpg"/>
 								<div class="img-bar-caption">
@@ -223,7 +209,7 @@
 							</div>
 							-->
 							
-							<!-- CHANGE TO CCS WEBSITE
+							<!-- empire site, CHANGE TO CCS WEBSITE
 							<div class="img-bar">
 								<img src="img/empireshot2.jpg"/>
 								<div class="img-bar-caption">
@@ -290,10 +276,19 @@
 							
 						</section>
 						
-						<section id="websites">
+						<section id="about">
+							<p>
+							My name is Patrick Francisco, and I love to create digital things! I graduated from New Jersey Institute of Technology in December 2014 with a degree in Information Technology. Adobe Photoshop and Adobe Premiere are my primary tools of the trade. I look forward to becoming more involved in the virtual reality industry. 
+							</p>
+						</section>
 						
+						<section id="contact">
+							<a href="https://www.linkedin.com/in/patfran" target="_blank">LINKEDIN <span class="fa fa-external-link"></span></a>
 						
-						<section id="graphics">
+							<a href="https://github.com/ppf3" target="_blank">GITHUB <span class="fa fa-external-link"></span></a>
+							
+							<a href="mailto:ppf3@njit.edu">EMAIL <span class="fa fa-paper-plane-o"></span></a>
+						</section>
 						
 
 					</div>
@@ -303,6 +298,8 @@
 					
 				</div>
 				<!-- /END CONTENT -->
+				
+				
 
 			</div>
 		</div> 
