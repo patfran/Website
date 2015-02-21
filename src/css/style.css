@@ -8,14 +8,14 @@
 }
 
 * {
-	font-family: 'Koushiki', sans-serif;
+	font-family: 'Koushiki', Arial, sans-serif;
 }
 
 /*
 body{ sets the minimum that everything can shrink down to when resizing
-	min-width: 320px;
+	min-width: 718px;
 	width: auto !important;
-	width: 320px; for IE browsers
+	width: 718px; for IE browsers
 }*/
 
 
@@ -52,20 +52,25 @@ body{ sets the minimum that everything can shrink down to when resizing
 /*====================================
 ===== SECTION IMAGES + CAPTIONS ======
 =====================================*/
+section #works{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+	background-color: #fff;
+	color: #000;
+	
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .175);
+}
 
 .workbar{
 	position: relative;
 	width: 100%;
 	height: 200px;
 	overflow: hidden;
-	opacity: 0.8;
-	
-	-webkit-transition: opacity 0.3s ease 0s;
-	transition: opacity 0.3s ease 0s;
 }
 
-.workbar:hover{
-	opacity: 1.0;	
+.workbar:hover img{
+	opacity: 1.0;
 }
 
 .workbar img{
@@ -73,62 +78,7 @@ body{ sets the minimum that everything can shrink down to when resizing
 	width: 100%;
 	top: 50%;
 	left: 50%;
-	
-	-webkit-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
-}
-
-.workbar .workbar-caption{
-	position: absolute;
-	color: #fff;
-	bottom: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
-	
-	background-color: #000;
-}
-
-
-
-
-
-
-
-.content-bar{
-	width: 100%;
-	height: 200px;
-	overflow: hidden;
-	left: 50%;
-}
-
-
-.content {
-	color: #000;
-	padding-top: 40px;
-}
-
-.content section {
-	width: 100%;
-	height: 100%;
-	margin-bottom: 20px;
-	background-color: #fff;
-	color: #000;
-}
-
-.img-bar {
-	position: relative;
-	height: 200px;
-	width: 100%;
-	overflow: hidden;
-}
-
-.img-bar img{
-	opacity: 0.6;
-	position: absolute;
-	width: 100%;
-	left: 50%;
-	top: 50%;
+	opacity: 0.85;
 	
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -138,21 +88,26 @@ body{ sets the minimum that everything can shrink down to when resizing
 	transition: opacity 0.3s ease 0s;
 }
 
-.img-bar img:hover{
-	opacity: 1;
-	color: #fff;
-}
-
-.img-bar-caption{
-	background-color: #fff;
-	opacity: 1;
-}
-
-.img-bar-caption p{
+.workbar .workbar-caption{
 	position: absolute;
-	bottom: 0;
-	left: 10px;
-	color: #000;
+	background-color: rgba( 0, 0, 0, .54);
+	color: #fff;
+	
+	bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;	
+}
+
+.workbar .workbar-date{
+	position: absolute;
+	background-color: #000;
+	color: #fff;
+		
+	bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -161,20 +116,15 @@ body{ sets the minimum that everything can shrink down to when resizing
 ======= MAIN CONTENT STUFF ===========
 =====================================*/
 
+/*
+using http://www.pearsonified.com/typography/ for font ratio for 750 width. Title: 45px, Headline: 28px, Sub: 22px, Text: 17px, Subtext: 13px;*/
 
-/* 
-using http://www.pearsonified.com/typography/ for font ratio for 750 width. Title: 45px, Headline: 28px, Sub: 22px, Text: 17px, Subtext: 13px;
-*/
 .content-image{
 	width: 100%;
 }
 
 #content-wrap{
 	margin-left: 200px;
-}
-
-p{
-	line-height: 27px;
 }
 
 #dating-doc{

@@ -1,0 +1,136 @@
+							<!--== UNUSED WORKS ==-->
+							<!-- wardriving
+							<div class="img-bar">
+								<a href="videos/wardriving.php">
+									<img src="img/wardriving.jpg"/>
+									<div class="img-bar-caption">
+										<p>War Driving Project (12.2014)</p> 
+									</div>
+								</a>
+							</div>
+							-->
+
+							<!-- for an a
+							<div class="img-bar">
+								<a href="videos/forana.php">
+									<img src="img/forana.jpg"/>
+									<div class="img-bar-caption">
+										<p>To Kill for an A (12.2013)</p> 
+									</div>
+								</a>
+							</div>
+							-->
+							
+							<!-- new shoes
+							<div class="img-bar">
+								<img src="img/newshoes.jpg"/>
+								<div class="img-bar-caption">
+									<p>New Shoes Music Video (10.2009)</p> 
+								</div>
+							</div>	
+							-->							
+							
+							<!-- snow 
+							<div class="img-bar">
+								<img src="img/photos/snowcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Snow (1.2014)</p> 
+								</div>
+							</div>
+							-->
+							
+							<!-- classic car
+							<div class="img-bar">
+								<img src="img/photos/carcrop.jpg"/>
+								<div class="img-bar-caption">
+									<p>Classic Car Show (9.2012)</p> 
+								</div>
+							</div>
+							-->
+							
+							<!-- sandy
+							<div class="img-bar">
+								<a href="photos/sandy.php">
+									<img src="img/photos/sandy.jpg"/>
+									<div class="img-bar-caption">
+										<p>Superstorm Sandy (11.2012)</p> 
+									</div>
+								</a>
+							</div>
+							-->
+							
+							<!-- fog
+							<div class="workbar">
+								<a href="photos/fog.php">
+									<img src="http://i.imgur.com/6rISH.jpg"/>
+										<p class="workbar-caption">Foggy Night</p> 
+								</a>
+							</div>
+							-->
+							
+							<!-- world trade center
+							<div class="img-bar">
+								<a href="photos/wtc.php">
+									<img src="img/photos/wtc.jpg"/>
+									<div class="img-bar-caption">
+										<p>One World Trade Center (7.2012)</p> 
+									</div>
+								</a>
+							</div>
+							-->
+													
+							<!-- sorry-o bros
+							<div class="img-bar">
+								<img src="img/games/sorryo.jpg"/>
+								<div class="img-bar-caption">
+									<p>Super Sorry-o Bros.! (11.2012)</p> 
+								</div>
+							</div>
+							-->
+							
+							<!-- pong
+							<div class="img-bar">
+								<a href="games/pong.php">
+								<img src="img/games/pong2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Pong (9.2012)</p> 
+								</div>
+								</a>
+							</div>
+							-->
+							
+							<!-- rosetta #2, change to morning moment prototype?
+							<div class="img-bar">
+								<img src="http://i.imgur.com/4UwMdub.jpg"/>
+								<div class="img-bar-caption">
+									<p>Rosetta Image Scale #2 (1.2015)</p>  
+								</div>
+							</div>
+							-->
+							
+							<!-- empire site, possibly include CCS website
+							<div class="img-bar">
+								<img src="img/empireshot2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							-->
+							
+							<!-- possibly change to gui website
+							<div class="img-bar">
+								<img src="img/empireshot2.jpg"/>
+								<div class="img-bar-caption">
+									<p>Empire Website Mockup (12.2014)</p> 
+								</div>
+							</div>
+							-->
+																				
+							<!-- school flyer
+							<div class="workbar">
+								<a href="graphics/campusflyer.php">
+									<img src="img/schoolflyer2.jpg"/>
+									<p class="workbar-caption">Campus Event Flyer (11.2014)</p>  
+								</a>
+							</div>
+							-->

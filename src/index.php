@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		
     </head>
@@ -26,8 +26,6 @@
         <![endif]-->
 		
 		
-		
-		
         <!-- CONTAINER -->
 		<div class="container">
 			<div class="row">
@@ -35,272 +33,108 @@
 				<!-- SIDEBAR, 4 columns wide -->
 				<?php include("php/nav_index.php");?>
 
-
 				<!-- CONTENT, 8 columns wide  -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
-						<!-- the meat of the content goes here -->
-						
-
-						<!--===== PATRICK =====
-						<section id="patrick">
-							<h1> 
-								<p>Hi! My name is Patrick, and I create digital things.</p>
-							</h1>	
-						</section>-->
+					<!-- the meat of the content goes here -->
 	
-						<!--===== VIDEOS =====-->
+	
+						<!--===== WORKS =====-->
 						<section id="works">
-						
-							<!-- wardriving
-							<div class="img-bar">
-								<a href="videos/wardriving.php">
-									<img src="img/wardriving.jpg"/>
-									<div class="img-bar-caption">
-										<p>War Driving Project (12.2014)</p> 
-									</div>
-								</a>
-							</div>
-							-->
-
-							<!-- for an a
-							<div class="img-bar">
-								<a href="videos/forana.php">
-									<img src="img/forana.jpg"/>
-									<div class="img-bar-caption">
-										<p>To Kill for an A (12.2013)</p> 
-									</div>
-								</a>
-							</div>
-							-->
-							
-							<div class="workbar">
-								<a href="videos/spongebob.php">
-									<img src="img/spongebob.jpg"/>
-									<p class="workbar-caption">Spongebob Sings Katy Perry's Roar</p> 
-								</a>
-							</div>	
-							
-							<div class="img-bar">
-								<a href="videos/phonepromo.php">
-									<img src="img/home-contestvideo2.jpg"/>
-									<div class="img-bar-caption">
-										<p>Windows Phone Promotional Video</p> 
-									</div>
-								</a>
-							</div>	
-							
-							<!-- 1fort
-							<div class="img-bar">
-								<a href="videos/1fort.php">
-								<img src="img/1fort.jpg"/>
-								<div class="img-bar-caption">
-									<p>1fort (7.2012)</p> 
-								</div>
-								</a>
-							</div>	
-							-->
-							
-							<!-- new shoes
-							<div class="img-bar">
-								<img src="img/newshoes.jpg"/>
-								<div class="img-bar-caption">
-									<p>New Shoes Music Video (10.2009)</p> 
-								</div>
-							</div>	
-							-->
-
-						
-							<div class="img-bar">
-								<a href="photos/truck.php">
-									<img src="img/photos/truck.jpg"/>
-									<div class="img-bar-caption">
-										<p>Truck Composition</p> 
-									</div>
-								</a>
-							</div>
-							
-							<!-- snow 
-							<div class="img-bar">
-								<img src="img/photos/snowcrop.jpg"/>
-								<div class="img-bar-caption">
-									<p>Snow (1.2014)</p> 
-								</div>
-							</div>
-							-->
-							
-							<!-- classic car
-							<div class="img-bar">
-								<img src="img/photos/carcrop.jpg"/>
-								<div class="img-bar-caption">
-									<p>Classic Car Show (9.2012)</p> 
-								</div>
-							</div>
-							-->
-							
-							<!-- sandy
-							<div class="img-bar">
-								<a href="photos/sandy.php">
-									<img src="img/photos/sandy.jpg"/>
-									<div class="img-bar-caption">
-										<p>Superstorm Sandy (11.2012)</p> 
-									</div>
-								</a>
-							</div>
-							-->
-							
-							<div class="img-bar">
-								<a href="photos/fog.php">
-									<img src="http://i.imgur.com/6rISH.jpg"/>
-									<div class="img-bar-caption">
-										<p>Foggy Night</p> 
-									</div>
-								</a>
-							</div>
-							
-							<!-- world trade center
-							<div class="img-bar">
-								<a href="photos/wtc.php">
-									<img src="img/photos/wtc.jpg"/>
-									<div class="img-bar-caption">
-										<p>One World Trade Center (7.2012)</p> 
-									</div>
-								</a>
-							</div>
-							-->
-							
-
-							<div class="img-bar">
+						<br>
+							<h1> WORKS </h1>					
+							<div class="workbar""> <!-- 2.2015 -->
 								<a href="games/escape.php">
-								<img src="img/games/escape2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Escape (Oculus Rift VR) (2.2015)</p> 
-								</div>
+								<img src="img/750/escape-750.jpg"/>
+									<h4 class="workbar-caption">Escape - 2.2015</h4> 
 								</a>
 							</div>
 							
-							<!-- sorry-o bros
-							<div class="img-bar">
-								<img src="img/games/sorryo.jpg"/>
-								<div class="img-bar-caption">
-									<p>Super Sorry-o Bros.! (11.2012)</p> 
-								</div>
-							</div>
-							-->
-							
-							<!-- pong
-							<div class="img-bar">
-								<a href="games/pong.php">
-								<img src="img/games/pong2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Pong (9.2012)</p> 
-								</div>
-								</a>
-							</div>
-							-->
-
-							
-							<!-- rosetta #2, CHANGE TO MORNING MOMENT
-							<div class="img-bar">
-								<img src="http://i.imgur.com/4UwMdub.jpg"/>
-								<div class="img-bar-caption">
-									<p>Rosetta Image Scale #2 (1.2015)</p>  
-								</div>
-							</div>
-							-->
-							
-							<!-- empire site, CHANGE TO CCS WEBSITE
-							<div class="img-bar">
-								<img src="img/empireshot2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Empire Website Mockup (12.2014)</p> 
-								</div>
-							</div>
-							-->
-							
-							<!-- CHANGE TO GUI WEBSITE
-							<div class="img-bar">
-								<img src="img/empireshot2.jpg"/>
-								<div class="img-bar-caption">
-									<p>Empire Website Mockup (12.2014)</p> 
-								</div>
-							</div>
-							-->
-							
-							
-							<div class="img-bar">
+							<div class="workbar"> <!-- 12.2014 -->
 								<a href="graphics/dating.php">
-									<img src="img/datingapp.jpg"/>
-									<div class="img-bar-caption">
-										<p>Dating App Prototype and Final Report (12.2014)</p>  
-									</div>
+									<img src="img/750/datingapp-750.jpg"/>
+									<h4 class="workbar-caption">Dating App UX - 12.2014</h4>  
 								</a>
 							</div>
 							
-							<div class="img-bar">
-								<a href="graphics/campusflyer.php">
-									<img src="img/schoolflyer2.jpg"/>
-									<div class="img-bar-caption">
-										<p>Campus Event Flyer (11.2014)</p>  
-									</div>
-								</a>
-							</div>
-							
-							<div class="img-bar">
+							<div class="workbar"> <!-- 10.2014 -->
 								<a href="graphics/rosetta.php">
-									<img src="http://i.imgur.com/t407kb2.png"/>
-									<div class="img-bar-caption">
-										<p>Rosetta Image Scale (10.2014)</p> 
-										<!-- October 2014 -->
-									</div>
+									<img src="img/750/rosetta-750.jpg"/>
+									<h4 class="workbar-caption">Rosetta Image Scale - 10.2014</h4> 
 								</a>
 							</div>
 							
-							<div class="img-bar">
+							<div class="workbar"> <!-- 6.2014 -->
+								<a href="photos/truck.php">
+									<img src="img/750/truck-750.jpg"/>
+									<h4 class="workbar-caption">Truck Composition - 6.2014</h4> 
+								</a>
+							</div>
+							
+							<div class="workbar"> <!-- 4.2014 -->
 								<a href="graphics/drawing.php">
-									<img src="img/bluegirlcrop.jpg"/>
-									<div class="img-bar-caption">
-										<p>Digital Drawing (4.2014)</p> 
-									</div>
+									<img src="img/750/bluegirl-750.jpg"/>
+									<h4 class="workbar-caption">Digital Drawing - 4.2014</h4> 
 								</a>
 							</div>
 	
-							<div class="img-bar">
+							<div class="workbar"> <!-- 3.2014 -->
 								<a href="graphics/xboxflyer.php">
-									<img src="img/home-contestflyer.jpg"/>
-									<div class="img-bar-caption">
-										<p>Xbox Music Flyer (3.2014)</p> 
-									</div>
+									<img src="img/750/xboxmusic-750.jpg"/>
+									<h4 class="workbar-caption"><span class="fa fa-trophy"></span> Xbox Music Promo - 3.2014</h4> 
 								</a>
 							</div>	
 							
-						</section>
+							<div class="workbar"> <!-- 8.2013 -->
+								<a href="videos/spongebob.php">
+									<img src="img/750/spongebob-750.jpg"/>
+									<h4 class="workbar-caption">Spongebob Sings Katy Perry's Roar - 8.2013</h4> 
+								</a>
+							</div>
+							
+							<div class="workbar"> <!-- 3.2013 -->
+								<a href="videos/phonepromo.php">
+									<img src="img/750/windowsphone-750.jpg"/>
+										<h4 class="workbar-caption"><span class="fa fa-trophy"></span> Windows Phone Promo - 3.2013</h4> 
+								</a>
+							</div>	
+							
+							<div class="workbar"> <!-- 7.2012 -->
+								<a href="videos/1fort.php">
+								<img src="img/750/1fort-750.jpg"/>
+								<h4 class="workbar-caption">1fort - 7.2012</h4> 
+								</a>
+							</div>	
+							
+						</section>					
+						<hr>
 						
+						<!--===== ABOUT =====-->
 						<section id="about">
+							<h1> ABOUT </h1>
 							<p>
-							My name is Patrick Francisco, and I love to create digital things! I graduated from New Jersey Institute of Technology in December 2014 with a degree in Information Technology. Adobe Photoshop and Adobe Premiere are my primary tools of the trade. I look forward to becoming more involved in the virtual reality industry. 
+							My name is Patrick Francisco, and I love to create digital things! I graduated from New Jersey Institute of Technology in December 2014 with a degree in Information Technology. Adobe Photoshop and Adobe Premiere are my primary tools of the trade, but I am always expanding my toolbox. I am currently teaching myself about virtual reality development, and I look forward to becoming more involved in the VR industry! 
 							</p>
 						</section>
+						<hr>
 						
+						<!--===== CONTACT =====-->
 						<section id="contact">
+							<h1> CONTACT </h1>
 							<a href="https://www.linkedin.com/in/patfran" target="_blank">LINKEDIN <span class="fa fa-external-link"></span></a>
-						
 							<a href="https://github.com/ppf3" target="_blank">GITHUB <span class="fa fa-external-link"></span></a>
-							
 							<a href="mailto:ppf3@njit.edu">EMAIL <span class="fa fa-paper-plane-o"></span></a>
 						</section>
 						
-
-					</div>
+						
+					</div><!-- /content -->
+					
 					
 					<hr>
 					<?php include("php/footer.php");?>
 					
 				</div>
-				<!-- /END CONTENT -->
-				
-				
-
+				<!-- /content-wrap -->
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->

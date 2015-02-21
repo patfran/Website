@@ -29,65 +29,70 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
+		<div class="m-scene" id="main">
+		<div class="m-page scene_element scene_element--fadeinright">
+		
         <!-- CONTAINER -->
 		<div class="container">	
 			<div class="row">
 			
 				<!-- SIDEBAR -->
-				<?php include("../nav_pages.php");?>
+				<?php include("../php/nav_pages.php");?>
 				<!-- /END SIDEBAR -->
 
 				<!-- CONTENT -->
 				<div id="content-wrap" class="col-md-8">
 					<div class="content">
 					
+						
 					
 					
-					
-						<h1>Escape (Oculus Rift VR) (2.2015)</h1>
-						
-						<p>
-						I am super excited about the potential of virtual reality (VR) for the future of society! I utilized Unity3D to help teach myself on VR development for the Oculus Rift Development Kit 2.
-						</p>
-						
-						<p>
-						I feel most comfortable in sitting VR experiences where you don't move. Here, the player is stuck inside a room sitting on a chair, and he or she must find a way to open the door.</p>
-						
-						<p>
-						Having things follow the player's head movements can be disorientating. I spent a lot of time on developing a "world cursor" that is separate from the player's camera and that can also be used to interact with the environment.
-						</p>
-						
-						<p>The demo is very short, and very unoptimized. However, you can download the Escape demo below to try for yourself!
-						</p>
-						
-						<p>
-						Created using Unity3D.
-						</p>
-						
-						<div id="truck-pics">
-						<br>
-							<a href="escape/escape_v1.0.zip" download><strong> --> Download Escape_v1.0 (Oculus Rift DK2 recommended) <-- </strong></a>
+							<h1>Escape (Oculus Rift VR) (2.2015)</h1>
+							
+							<p>
+							I am super excited about the potential of virtual reality (VR) for the future of society! I utilized Unity3D to help teach myself on VR development for the Oculus Rift Development Kit 2.
+							</p>
+							
+							<p>
+							I feel most comfortable in sitting VR experiences where you don't move. Here, the player is stuck inside a room sitting on a chair, and he or she must find a way to open the door.</p>
+							
+							<p>
+							Having things follow the player's head movements can be disorientating. I spent a lot of time on developing a "world cursor" that is separate from the player's camera and that can also be used to interact with the environment.
+							</p>
+							
+							<p>The demo is very short, and very unoptimized. However, you can download the Escape demo below to try for yourself!
+							</p>
+							
+							<p>
+							Created using Unity3D.
+							</p>
+							
+							<div id="truck-pics">
 							<br>
-							
-							<img src="escape/escape.jpg"></img>
-							
-						</div>
+								<a href="escape/escape_v1.0.zip" download><strong> --> Download Escape_v1.0 (Oculus Rift DK2 recommended) <-- </strong></a>
+								<br>
+								
+								<img src="escape/escape.jpg"></img>
+							</div>
 						
 						
 						
-					</div>
-					<hr>
-					<address>
-						<h6>
-							<small> <a href="mailto:ppf3@njit.edu"><span class="glyphicon glyphicon-envelope"></span>	Patrick Francisco 2015 </a></small>
-						</h6>
-					</address>
+							<hr>
+							<address>
+								<h6>
+									<small> <a href="mailto:ppf3@njit.edu"><span class="glyphicon glyphicon-envelope"></span>	Patrick Francisco 2015 </a></small>
+								</h6>
+							</address>
+						
+						
+					
+					</div><!-- /END CONTENT -->
 				</div>
-				<!-- /END CONTENT -->
-
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->
+		</div>
+		</div>
 	
 		<!-- added the following two line for bootstrap -->
 		<script src="../js/jquery.min.js"></script>

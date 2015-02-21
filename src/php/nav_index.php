@@ -1,4 +1,4 @@
-<div id="side-nav" class="collapse navbar-collapse col-md-4">
+<div id="side-nav" class="col-md-4">
 	<ul class="nav nav-pills nav-stacked" data-spy="affix">
 		
 		<li role="presentation"><a href="index.php">PATRICK FRANCISCO</a></li>
