@@ -1,16 +1,19 @@
 		<!-- added the following two line for bootstrap -->
 		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.smoothState.js"></script>	
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/mySmoothTransition.js"></script>
 		
-		<!-- tracks active scroll thing -->
+		<!-- tracks active scroll thing 
 		<script>
 			$('body').scrollspy({
 				target: '#side-nav',
 				offset: 200
 			});
 		</script>
+		-->
 		
-		<!-- scrolling animation -->
+		<!-- scrolling animation 
 		<script>
 			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
@@ -27,8 +30,9 @@
 				}
 			});
 		</script>
+		-->
 		
-		<!-- Google Analytic stuff -->
+		<!-- Google Analytic stuff 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,3 +43,4 @@
 		  ga('send', 'pageview');
 
 		</script>
+		-->

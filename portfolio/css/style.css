@@ -11,16 +11,19 @@
 	font-family: 'Koushiki', Arial, sans-serif;
 }
 
-/*
-body{ sets the minimum that everything can shrink down to when resizing
-	min-width: 718px;
-	width: auto !important;
-	width: 718px; for IE browsers
-}*/
-
 body{
 	padding-top: 70px;
+	min-width: 320px;
+	width: auto !important;
+	width: 320px; /*for IE browsers*/
 }
+
+/*====================================
+============ ANIMATIONS ==============
+=====================================*/
+
+
+
 
 /*====================================
 ======= SIDE BAR NAVIGATION ==========
@@ -37,7 +40,7 @@ body{
 }
 
 .mynav a:hover{ /*colors link hover*/
-	/*text-decoration: underline;*/
+
 }
 
 .mynav a.active  { /*link colors when scrolling*/
@@ -45,6 +48,16 @@ body{
 	color: #000;
 	text-decoration: none;
 }
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}	
 
 
 /*====================================
