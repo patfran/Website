@@ -17,16 +17,16 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-		
     </head>
     <body>
-	
+	<div id="mainSmooth">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->	
 		
         <!-- CONTAINER -->
 		<div class="container">
+		
 			<!-- SIDEBAR, 4 columns wide -->
 			<?php include("php/nav_index.php");?>
 			
@@ -40,9 +40,10 @@
 						
 						<!--===== WORKS =====-->
 						<section id="works">
-							<h1> WORKS </h1>	
+						
+							<h1 class="text-center">Works</h1>	
 							
-							<div class="workbar""> <!-- 2.2015 -->
+							<div class="workbar"> <!-- 2.2015 -->
 								<a href="works/escape.php">
 								<img src="thumbnails/escape-750.jpg" alt="Escape VR"/>
 								<h4 class="workbar-caption">Escape (Oculus Rift VR)</h4> 
@@ -51,14 +52,14 @@
 							
 							<div class="workbar"> <!-- 12.2014 -->
 								<a href="works/dating.php">
-								<img src="thumbnails/datingapp-750.jpg" alt="Dating App"/>
+								<img src="thumbnails/datingapp-cards.jpg" alt="Dating App"/>
 								<h4 class="workbar-caption">Dating App UX Report</h4>  
 								</a>
 							</div>
 							
 							<div class="workbar"> <!-- 10.2014 -->
 								<a href="works/rosetta.php">
-								<img src="thumbnails/rosetta-750.jpg" alt="Rosetta Scale"/>
+								<img src="thumbnails/rosetta2-900.jpg" alt="Rosetta Scale"/>
 								<h4 class="workbar-caption">Rosetta Image Scale</h4> 
 								</a>
 							</div>
@@ -104,7 +105,7 @@
 								<h4 class="workbar-caption">1fort (Source Filmmaker)</h4> 
 								</a>
 							</div>	
-							
+						
 						</section>
 						
 						<hr>
@@ -116,9 +117,24 @@
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->	
-
+	
+	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.smoothState.js"></script>
+	<script src="js/mySmoothjs.js"></script>
+	
+		<!-- Google Analytic stuff -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-59716201-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 		
     </body>
 </html>

@@ -20,7 +20,7 @@
 		
     </head>
     <body>
-	
+	<div id="mainSmooth">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -39,10 +39,14 @@
 	
 						<!--===== CONTACT =====-->
 						<section id="contact">
-							<h1> CONTACT </h1>
-							<a href="https://www.linkedin.com/in/patfran" target="_blank">LINKEDIN <span class="fa fa-external-link"></span></a>
-							<a href="https://github.com/ppf3" target="_blank">GITHUB <span class="fa fa-external-link"></span></a>
-							<a href="mailto:ppf3@njit.edu">EMAIL <span class="fa fa-paper-plane-o"></span></a>
+							
+							<h1 class="text-center">Contact</h1>
+							
+							Professional: <a href="https://www.linkedin.com/in/patfran" target="_blank">LinkedIn <span class="fa fa-external-link"></span></a><br/>
+							Code: <a href="https://github.com/ppf3" target="_blank">GitHub <span class="fa fa-external-link"></span></a><br/>
+							Photos: <a href="https://500px.com/patrickfrancisco" target="_blank">500px <span class="fa fa-external-link"></span></a><br/>
+							E-mail: <a href="mailto:mail@patfran.me">mail@patfran.me<span class="fa fa-paper-plane-o"></span></a><br/>
+							
 						</section>
 						
 						<hr>
@@ -54,8 +58,23 @@
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->
-		
-		<?php include("php/bottom_scripts.php");?>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.smoothState.js"></script>
+	<script src="js/mySmoothjs.js"></script>
+	
+		<!-- Google Analytic stuff -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-59716201-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 	
     </body>
 </html>
