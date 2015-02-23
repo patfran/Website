@@ -44,7 +44,7 @@
 							<br/>
 							
 							<p>
-							Hi! My name is Patrick Francisco, and I'm a digital designer. I graduated from New Jersey Institute of Technology in December 2014 with a degree in Information Technology. Adobe Photoshop and Adobe Premiere have been my main tools of the trade since high school, but I am always looking for new and cool digital outlets to express my creativity. As a matter of fact, I taught myself HTML and CSS over the past few months to develop my portfolio! Right now, I am currently learning more about virtual reality development using Unity3D and the Oculus Rift DK2, and my ultimate goal is to foster my design skills within the VR industry.
+							Hi! My name is Patrick Francisco, and I'm a digital artist living in the Greater New York City area. I graduated from New Jersey Institute of Technology in December 2014 with a degree in Information Technology. Adobe Photoshop and Adobe Premiere have been my main tools of the trade since high school, but I am always looking for new and cool digital outlets to express my creativity. As a matter of fact, I taught myself HTML and CSS over the past few months to develop this portfolio! Right now, I am currently learning more about virtual reality development using Unity3D and the Oculus Rift DK2, and my ultimate goal is to get hired within the VR industry to foster my design skills.
 							</p>
 							
 							<a href="contact.php">Contact me!</a>

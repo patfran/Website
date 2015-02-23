@@ -17,16 +17,16 @@
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../fonts/font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
-		
     </head>
     <body>
-	
+	<div id="mainSmooth">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->	
 		
         <!-- CONTAINER -->
 		<div class="container">
+		
 			<!-- SIDEBAR, 4 columns wide -->
 			<?php include("../php/nav_pages.php");?>
 			
@@ -73,9 +73,23 @@
 			</div>
 		</div> 
 		<!-- /END CONTAINER -->	
-
+	
+	</div>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.smoothState.js"></script>
+	<script src="../js/mySmoothjs.js"></script>
+	
+		<!-- Google Analytic stuff -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-59716201-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 		
     </body>
 </html>
