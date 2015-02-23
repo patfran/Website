@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco - Portfolio</title>
+		<title>Patrick Francisco</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -15,110 +15,70 @@
 		<link rel="stylesheet" href="../css/bootstrap.css">
 		<link rel="stylesheet" href="../css/normalize.css">
 		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../fonts/font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 		
-		<!-- 
-		Definitely not focused on optimization at the moment. 
-		Becoming comfortable with HTML, CSS, and etc. is my first and foremost objective.
-		-->
-		
     </head>
-    <body data-spy="scrollspy" data-target="#side-nav">
+    <body>
+	
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif]-->	
 		
         <!-- CONTAINER -->
-		<div class="container">	
-			<div class="row">
+		<div class="container">
+			<!-- SIDEBAR, 4 columns wide -->
+			<?php include("../php/nav_pages.php");?>
 			
-				<!-- SIDEBAR -->
-				<?php include("../nav_pages.php");?>
-				<!-- /END SIDEBAR -->
-
-				<!-- CONTENT -->
-				<div id="content-wrap" class="col-md-8">
+			<div class="row">
+				<!-- CONTENT, 8 columns wide  -->
+				<div id="content-wrap" class="col-md-8 col-md-offset-2">
 					<div class="content">
+					<!-- the meat of the content goes here -->
 					
 					
 					
 					
-						<h1>Xbox Music Flyer (3.2014)</h1>
+						<h1>Xbox Music Promotional Flyer</h1>
 						
 						<p>
-						My submission for the Xbox Music Flyer Contest during my internship with Windows UCrew. The contest was between many of the nearly 700 Windows UCrew representatives from across the country. I was one of the top 5 winners!
+						My submission for the Xbox Music Flyer Contest during my Windows UCrew internship. UCrew members from across the country were tasked with creating an effective promotional flyer that would be helpful on our campuses.
 						</p>
 						
 						<p>
-						The flyers produced in this contest were intended to be used the UCrew members for their own campuses. Knowing that this was aimed towards college students, this photo had the perfect components: a popular electronic dance music artist, a centered heart symbol, and vibrant colors. The colors helped catch a person's attention, and I felt that the connection between heart symbol and the words Xbox Music aided in developing a positive association towards the brand.
+						While searching for an attractive photo for the flyer, I came across this one. I felt like this photo had the perfect components: a popular electronic dance music artist (Avicii), the centered heart symbol, and vibrant colors. The colors can  help draw a person's attention in, the heart symbol gives a positive reaction, and having Avicii featured on the flyer develops a legitimacy towards the Xbox Music brand.
 						</p>
 						
 						<p>
-						Edited using Adobe Photoshop.
+						Using Adobe Photoshop, I added a black fade towards the bottom of the flyer to bring out the words more, especially having "Xbox Music" in all capital letters.
 						</p>
 						
-						<div id="truck-pics">
+						
+						
+						<div class="works-pics">
 							<img src="img/xboxflyer.jpg"/>
-
 						</div>
 						
+						<br>
+						
+						<h4>AWARDS</h4>
+						<p>
+						Top 5 Best Xbox Music Promotional Flyers - Windows UCrew
+						</p>
 						
 						
-					</div>
 					<hr>
-					<address>
-						<h6>
-							<small> <a href="mailto:ppf3@njit.edu"><span class="glyphicon glyphicon-envelope"></span>	Patrick Francisco 2015 </a></small>
-						</h6>
-					</address>
-				</div>
-				<!-- /END CONTENT -->
+						<?php include("../php/footer.php");?>
 
+					</div><!-- /content -->
+				</div>
+				<!-- /content-wrap -->
 			</div>
 		</div> 
-		<!-- /END CONTAINER -->
-	
-		<!-- added the following two line for bootstrap -->
-		<script src="../js/jquery.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
+		<!-- /END CONTAINER -->	
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 		
-		<!-- tracks active scroll thing -->
-		<script>
-			$('body').scrollspy({
-				target: '#side-nav'
-			})
-		</script>
-		
-		<!-- scrolling animation -->
-		<script>
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-					|| location.hostname == this.hostname) {
-
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					   if (target.length) {
-						 $('html,body').animate({
-							 scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		</script>
-		
-		<!-- Google Analytic stuff -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-59716201-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-
     </body>
 </html>

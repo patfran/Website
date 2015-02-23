@@ -112,7 +112,7 @@ section #works{
 
 
 /*====================================
-======= MAIN CONTENT STUFF ===========
+========= MAIN WORKS STUFF ===========
 =====================================*/
 
 /*
@@ -127,7 +127,7 @@ using http://www.pearsonified.com/typography/ for font ratio for 750 width. Titl
 	height: 846px;
 }
 
-#truck-pics img{
+.works-pics img{
 	width: 750px;
 }
 

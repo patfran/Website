@@ -6,7 +6,7 @@
         <meta name="description" content="Patrick Francisco">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Patrick Francisco - Portfolio</title>
+		<title>Patrick Francisco</title>
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -15,43 +15,52 @@
 		<link rel="stylesheet" href="../css/bootstrap.css">
 		<link rel="stylesheet" href="../css/normalize.css">
 		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../fonts/font-awesome-4.3.0/css/font-awesome.min.css">
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 		
-		<!-- 
-		Definitely not focused on optimization at the moment. 
-		Becoming comfortable with HTML, CSS, and etc. is my first and foremost objective.
-		-->
-		
     </head>
-    <body data-spy="scrollspy" data-target="#side-nav">
+    <body>
+	
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif]-->	
 		
         <!-- CONTAINER -->
-		<div class="container">	
-			<div class="row">
+		<div class="container">
+			<!-- SIDEBAR, 4 columns wide -->
+			<?php include("../php/nav_pages.php");?>
 			
-				<!-- SIDEBAR -->
-				<?php include("../nav_pages.php");?>
-				<!-- /END SIDEBAR -->
-
-				<!-- CONTENT -->
-				<div id="content-wrap" class="col-md-8">
+			<div class="row">
+				<!-- CONTENT, 8 columns wide  -->
+				<div id="content-wrap" class="col-md-8 col-md-offset-2">
 					<div class="content">
+					<!-- the meat of the content goes here -->
 					
 					
 					
 					
-						<h1>Dating App Prototype and Final Report (12.2014)</h1>
+						<h1>Dating App UX Report</h1>
 						
 						
 						<p>
-						For our IS 247 course, "Designing the User Experience", we focused on developing an mobile application that allows users to find potential dating matches similar to Tinder or OkCupid. After weeks of reiteration, storyboarding, and persona-refinement, we decided to go with a system that pairs users up based on their internet browsing habits.</p>
+						For our "Designing the User Experience" course, we focused on the user experience design process similar to what we'd find in design teams in many companies. Every week we delved into a different portion of the UX process. These included:
+							<ul>
+								<li>claims analysis</li>
+								<li>stakeholder lists</li>
+								<li>card sorting</li>
+								<li>personas</li>
+								<li>pre-intervention scenarios</li>
+								<li>post-intervention scenarios</li>
+								<li>storyboards</li>
+								<li>key path scenarios with Axure</li>
+							</ul>
+						</p>
 						
 						<p>
-						Below is our final UX report. Our Axure prototype can be found <a href="http://1by4bg.axshare.com/#p=internet_1&hi=1">here</a>.
+						Our group's project was to develop a unique dating application that allowed users to find potential matches. We decided to go with a system that pairs users up based on their internet browsing habits.</p>
+						
+						<p>
+						Our complete UX report can be found below. Our Axure prototype can be found <a href="http://1by4bg.axshare.com/#p=internet_1&hi=1">here</a>.
 						</p>
 						
 						<!--<div class="embed-responsive embed-responsive-4by3">-->
@@ -60,60 +69,19 @@
 						
 						
 						
-					</div>
-					<hr>
-					<address>
-						<h6>
-							<small> <a href="mailto:ppf3@njit.edu"><span class="glyphicon glyphicon-envelope"></span>	Patrick Francisco 2015 </a></small>
-						</h6>
-					</address>
-				</div>
-				<!-- /END CONTENT -->
 
+						<hr>
+						<?php include("../php/footer.php");?>
+
+					</div><!-- /content -->
+				</div>
+				<!-- /content-wrap -->
 			</div>
 		</div> 
-		<!-- /END CONTAINER -->
-	
-		<!-- added the following two line for bootstrap -->
-		<script src="../js/jquery.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
+		<!-- /END CONTAINER -->	
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 		
-		<!-- tracks active scroll thing -->
-		<script>
-			$('body').scrollspy({
-				target: '#side-nav'
-			})
-		</script>
-		
-		<!-- scrolling animation -->
-		<script>
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-					|| location.hostname == this.hostname) {
-
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					   if (target.length) {
-						 $('html,body').animate({
-							 scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		</script>
-		
-		<!-- Google Analytic stuff -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-59716201-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-
     </body>
 </html>
